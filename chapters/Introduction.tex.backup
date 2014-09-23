@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                                              %%%%%%
+%%%%  Author: Name des Autors                     %%%%%%
+%%%%                                              %%%%%%
+%%%%  Beschreibung:                               %%%%%%
+%%%%                                              %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+\label{chap:chapter_1}
+
+\section{Smoothed Particle Hydronamics}
+\label{sec:section_1}
+
+Smoothed particle hydrodynamics (SPH) is a fully Lagrangian and mesh-free method that was proposed in 1977 independently by Lucy \cite{lucy_numerical_1977} and 
+Monaghan \cite{gingold_smoothed_1977}. SPH is a method for obtaining approximate numerical solutions of the equations of fluid dynamics by replacing the fluid with a set of 
+particles \cite{monaghan_smoothed_2005}. For the mathematician, the particles are just interpolation points from which properties of the fluid
+can be calculated. For the physicist, the SPH particles are material particles which can be treatedlike any other particle system. Either way, the method has a number of attractive 
+features. The first of these is that pure advection is treated exactly. For example, if the particles are given a colour, and the velocity is specified, the transport of colour by 
+the particle system is exact. Modern finite difference methods give reasonable results for advection but the algorithms are not Galilean invariant so that, when a large constant 
+velocity is superposed, the results can be badly corrupted. The second advantage is that with more than one material, each described by its own set of particles, interface problems 
+are often trivial for SPH but difficult for finite difference schemes. The third advantage is that particle methods bridge the gap between the continuum and fragmentation in a 
+natural way.\par
+
+Although the idea of using particles is natural, it is not obvious which interactions between the particles will faithfully reproduce the equations of fluid dynamics or continuum
+mechanics. Gingold and Monaghan \cite{gingold_smoothed_1977} derived the equations of motion using a kernel estimation technique, pioneered by statisticians, to estimate probability 
+densities from sample values. When applied to interpolation, this yielded an estimate of a function at any point using the values of the function at the particles. This estimate of 
+the function could be differentiated exactly provided the kernel was differentiable. In this way, the gradient terms required for the equations of fluid dynamics could be written in
+terms of the properties of the particles.\par
+
+
+The original papers (Gingold and Monaghan \cite{gingold_smoothed_1977}, Lucy \cite{lucy_numerical_1977}) proposed numerical schemes which did not conserve linear and angular momentum 
+exactly, but gave good results for a class of astrophysical problems that were considered too difficult for the techniques available at the time. The basic SPH algorithm was improved 
+to conserve linear and angular momentum exactly using the particle equivalent of the Lagrangian for a compressible non- dissipative fluid \cite{gingold_kernel_1982}. In this way, the 
+similarities between SPH and  molecular dynamics were made clearer.\par
+
+
+Since SPH models a fluid as a mechanical and thermodynamical particle system, it is natural to derive the SPH equations for non-dissipative flow from a Lagrangian. The
+equations for the early SPH simulations of binary fission and instabilities were derived from Lagrangians (\cite{gingold_binary_1978},\cite{gingold_numerical_1979},
+\cite{r._a._gingold_roche_1980}). These Lagrangians took into account the smoothing length (the same for each particle) which was a function of the coordinates.The advantage 
+of a Lagrangian is that it not only guarantees conservation of momentum and energy, but also ensures that the particle system retains much of the geometric structure of the continuum 
+system in the phase space of the particles.\par
+
+
+
+\subsection{SPH Formulation}
+\label{sec:section 1}
+
+The equations of fluid dynamics \cite{monaghan_smoothed_2005} have the form:
+
+\begin{equation} 
+  \frac{dA}{dt} = f ( A , \nabla A , r),
+\end{equation}
+
+where
+
+\begin{equation} 
+\frac{d}{dt} = \frac{\partial}{\partial t} + v \cdot \nabla
+\end{equation}
+
+is the Lagrangian derivative, or the derivative following the motion. It is worth noting that the
+characteristics of this differential operator are the particle trajectories.
+In the equations of fluid dynamics, the rates of change of physical quantities require spatial
+derivatives of physical quantities. The key step in any computational fluid dynamics algorithm
+is to approximate these derivatives using information from a finite number of points. In finite
+difference methods, the points are the vertices of a mesh. In the SPH method, the interpolating
+points are particles which move with the flow, and the interpolation of any quantity, at any
+point in space, is based on kernel estimation.\par
+
+Considering a set of SPH particles \cite{monaghan_smoothed_2012} such that particle \textit{b}, has mass $m_{b}$ , density $\rho_{b}$ and position $r_{b}$. the interpolation formula 
+for any scalar or tensor quantity $A(r)$ is an integral interpolant of the form 
+
+\begin{equation} 
+A(r) = \int A(r')W(r-r',\textit{h})dr' \simeq \sum \frac{m_{b}A(r_{b})}{\rho_{b}}W(r-r_{b},\textit{h}),
+\end{equation}
+
+where $dr'$ denotes a volume element, and the summation over particles is an approximation to the integral. The function $W(q,\textit{h})$ is a smoothing kernel that is a function of
+$|q|$ and tends to a delta function as $\textit{h}\rightarrow 0$.  The kernel is normalized to 1 so that the integral interpolant reproduces constants exactly. In practice the kernels 
+are similar to a Gaussian, although they are usually chosen to vanish for $|q|$ sufficiently large, which, in this review, is taken as $2\textit{h}$. As a consequence, although the 
+summations are formally over all the particles, the only particles $\textit{b}$ that make a contribution to the density of particle $\textit{a}$ are those for which 
+$|r_{a}-r_{b}|\leq 2\textit{h}$. If the gradient of quantity $A$ is required , Equation 1 can be written as
+\begin{equation} 
+A(r) = \int A(r')W(r-r',\textit{h})dr' \simeq \sum \frac{m_{b}A(r_{b})}{\rho_{b}}\nabla W(r-r_{b},\textit{h})
+\end{equation}
+
+\section{Section}
+\label{sec:section 2}
+
+
+The B-Spline basis functions are defined by the knot vector $\mathbf{\Xi}$ and the polynomial degree $p$. They can be computed by the Cox-deBoor recursion formula. It starts with $p=0$: 
+
+\begin{equation}
+			N_{i,0}(\xi)=\begin{cases}
+		  1,  & \xi_i \leqslant \xi < \xi_{i+1}\\
+		  0, & otherwise
+		\end{cases}
+	\label{eq:CoxPnull}
+\end{equation}
+
+For $p\geqslant 1$ it is
+
+\begin{equation}
+			N_{i,p}(\xi)=\frac{\xi-\xi_i}{\xi_{i+p}-\xi_i} N_{i,p-1}(\xi)+\frac{\xi_{i+p+1}-\xi}{\xi_{i+p+1}-\xi_{i+1}}N_{i+1,p-1}(\xi)\\
+	\label{eq:CoxPrest}
+\end{equation}
+
+Gleichung \ref{eq:CoxPrest} ist korrekt.
+The basis functions are $C^{\infty}$ continuous inside a knot span and $C^{p-1}$ continuous at single knots. At knots with multiplicity k the continuity of the basis functions is reduced to $C^{p-k}$. The following list contains some important properties of the B-Spline basis functions: 
+
+
+\begin{compactitem}
+\item Local support, i.e. a basis function  \begin{math} N_{i,p}(\xi) \end{math} is non-zero only in the interval \begin{math} [\xi_{i},\xi_{i+p+1}] \end{math}.
+\item Partition of unity, i.e. \begin{math} \sum_{i=1}^n N_{i,p}(\xi)=1\end{math}.
+\item Non-negativity, i.e. \begin{math} N_{i,p}(\xi) \geqslant 0 \end{math}.
+\item Linear independence, i.e. \begin{math} \sum_{i=1}^n \alpha_i N_{i,p}(\xi)=0~\Leftrightarrow~\alpha_i=0,~i=1,2,...,n \end{math}
+\end{compactitem}
+
+In Figure~\ref{fig:Bild3} we see.
+consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il. Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+
+\begin{figure}[ht]
+  \centering
+  \begin{footnotesize}
+  \includesvg{images/Surface_Trimming_Shell_1_1}
+  \caption[Bildbeschreibung kurz 1]{deformed geometry}
+  \label{fig:Bild3}
+  \end{footnotesize}
+\end{figure} 
+
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+
+\begin{align}
+	\phi(x_{1},x_{2})+u_{3}\big(x_{1},x_{2},\phi(x_{1},x_{2})\big)\le \psi\Big(x_{1}+u_{1}\big(x_{1},x_{2},\phi(x_{1},x_{2})\big),x_{2}+u_{2}\big(x_{1},x_{2},\phi(x_{1},x_{2})\big)\Big),
+\end{align}
+
+where $\phi$ is the parametrization of the contact surface $\Gamma_c \subset \Gamma$, $\lbrace u_i \rbrace_{i=1,2,3}:\Omega \rightarrow \mathbb{R}^3$ is the displacement f\mbox{}ield and $\psi$ is the parametrization of the surface $\mathbb{S}$ of the rigid foundation $\mathfrak{F}$. Completion of this condition with the state of stresses in the contact surface def\mbox{}ine a set of non-linear equations and inequalities:
+
+\begin{equation}
+	T_{n}(\mathbf{y}) \le 0 \quad \text{and} \quad T_t(\mathbf{y})=0
+	\label{eq:gleichung_1}
+\end{equation}
+
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+
+\begin{figure}[ht]
+  \begin{footnotesize}
+  \subfigure[xx Number of degrees of freedom]{\label{fig:sehll_bending_PointA_nlin_conv}\includesvg{images/Surface_Trimming_Shell_pointC_conv}}
+  \subfigure[difference B ungetrimmt getrimmt]{\label{fig:shell_bending_PointB_nlin_conv}\includesvg{images/Surface_Trimming_Shell_pointC_conv2}}
+    \caption{Relative difference between untrimmed und trimme}
+  \label{fig:conv_shell2_bending_PointAandB}
+  \end{footnotesize}
+\end{figure} 
+
+Es roto munio veneficus admonitio. Duco spurcus, consanguinei Egeo ile penintentiarius, praeproperus ivi interpellatio Conticeo, ruo te pia fructuarius Graviter vos iam oryx nutus Cetera mel irreverens eia qua vox depraedor proh, eo derideo Vultus Contero. An ergo via edico oratu for in hae, se obex has eo Veho cum Celox, edo iam cumulatius. Ars Vobis probus an tumeo far Aestimo his internecio il.
+
+\begin{figure}[ht]
+  \centering
+  \begin{footnotesize}
+\subfigure[Control points parameter space]{\label{fig:space_overview_1}\includesvg{images/SpacesOverview_1_1_1}}
+\caption{\footnotesize{$\hat{\xi}_{end}$} Control points parameter space \textbf{Gauss space} $\mathbf{Gauss~space}$}
+  \label{fig:space_overview}
+  \end{footnotesize}
+\end{figure} 

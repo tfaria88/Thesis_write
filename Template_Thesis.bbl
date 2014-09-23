@@ -1,0 +1,49 @@
+\begin{thebibliography}{RAG80}
+
+\bibitem[GM77]{gingold_smoothed_1977}
+R.~A. Gingold and J.~J. Monaghan.
+\newblock Smoothed particle hydrodynamics - theory and application to
+  non-spherical stars.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  181:375--389, November 1977.
+
+\bibitem[GM78]{gingold_binary_1978}
+R.~A. Gingold and J.~J. Monaghan.
+\newblock Binary fission in damped rotating polytropes.
+\newblock 1978.
+
+\bibitem[GM79]{gingold_numerical_1979}
+R.~A. Gingold and J.~J. Monaghan.
+\newblock A numerical study of the roche and darwin problems for polytropic
+  stars.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  188(1):45--58, September 1979.
+
+\bibitem[GM82]{gingold_kernel_1982}
+R.~A. Gingold and J.~J. Monaghan.
+\newblock Kernel estimates as a basis for general particle methods in
+  hydrodynamics.
+\newblock {\em Journal of Computational Physics}, 46(3):429--453, 1982.
+
+\bibitem[Luc77]{lucy_numerical_1977}
+L.~B. Lucy.
+\newblock A numerical approach to the testing of the fission hypothesis.
+\newblock {\em The Astronomical Journal}, 82:1013, December 1977.
+
+\bibitem[Mon05]{monaghan_smoothed_2005}
+J~J Monaghan.
+\newblock Smoothed particle hydrodynamics.
+\newblock {\em Reports on Progress in Physics}, 68(8):1703--1759, August 2005.
+
+\bibitem[Mon12]{monaghan_smoothed_2012}
+J.J. Monaghan.
+\newblock Smoothed particle hydrodynamics and its diverse applications.
+\newblock {\em Annual Review of Fluid Mechanics}, 44(1):323--346, January 2012.
+
+\bibitem[RAG80]{r._a._gingold_roche_1980}
+J.~J.~Monaghan R.~A.~Gingold.
+\newblock The roche problem for polytropes in central orbits.
+\newblock {\em Monthly Notices of the Royal Astronomical Society},
+  191:897--924, 1980.
+
+\end{thebibliography}

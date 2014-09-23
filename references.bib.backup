@@ -1,0 +1,105 @@
+﻿@book{Piegl.op.1997,
+ author = {Piegl, Les A. and Tiller, Wayne},
+ year = {op. 1997},
+ title = {The NURBS book},
+ address = {Berlin  and  and New York},
+ edition = {2},
+ publisher = {Springer},
+ isbn = {3-540-61545-8}
+}
+
+@article{lucy_numerical_1977,
+	title = {A numerical approach to the testing of the fission hypothesis},
+	volume = {82},
+	issn = {00046256},
+	url = {http://adsabs.harvard.edu/abs/1977AJ.....82.1013L},
+	doi = {10.1086/112164},
+	urldate = {2014-09-19},
+	journal = {The Astronomical Journal},
+	author = {Lucy, L. B.},
+	month = dec,
+	year = {1977},
+	pages = {1013},
+	file = {Lucy - 1977 - A numerical approach to the testing of the fission.pdf:/home/tfaria/Thesis/papers/Lucy - 1977 - A numerical approach to the testing of the fission.pdf:application/pdf;NASA ADS\: A numerical approach to the testing of the fission hypothesis:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/EEEQT7BS/1977AJ.....82.html:text/html}
+}
+
+@article{gingold_smoothed_1977,
+	title = {Smoothed particle hydrodynamics - Theory and application to non-spherical stars},
+	volume = {181},
+	issn = {0035-8711},
+	url = {http://adsabs.harvard.edu/abs/1977MNRAS.181..375G},
+	language = {en},
+	urldate = {2014-09-19},
+	journal = {Monthly Notices of the Royal Astronomical Society},
+	author = {Gingold, R. A. and Monaghan, J. J.},
+	month = nov,
+	year = {1977},
+	pages = {375--389},
+	file = {Gingold and Monaghan - 1977 - Smoothed particle hydrodynamics - Theory and appli.pdf:/home/tfaria/Thesis/papers/Gingold and Monaghan - 1977 - Smoothed particle hydrodynamics - Theory and appli.pdf:application/pdf;Snapshot:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/TRFKI77I/1977MNRAS.181..html:text/html}
+}
+
+@article{monaghan_smoothed_2005,
+	title = {Smoothed particle hydrodynamics},
+	volume = {68},
+	issn = {0034-4885, 1361-6633},
+	url = {http://stacks.iop.org/0034-4885/68/i=8/a=R01?key=crossref.c562820df517a049ca7f11d0aefe49b4},
+	doi = {10.1088/0034-4885/68/8/R01},
+	number = {8},
+	urldate = {2014-09-19},
+	journal = {Reports on Progress in Physics},
+	author = {Monaghan, J J},
+	month = aug,
+	year = {2005},
+	pages = {1703--1759},
+	file = {Monaghan - 2005 - Smoothed particle hydrodynamics.pdf:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/EUUGCDIS/Monaghan - 2005 - Smoothed particle hydrodynamics.pdf:application/pdf}
+}
+
+@article{gingold_kernel_1982,
+	title = {Kernel estimates as a basis for general particle methods in hydrodynamics},
+	volume = {46},
+	url = {http://www.sciencedirect.com/science/article/pii/0021999182900250},
+	number = {3},
+	urldate = {2014-09-23},
+	journal = {Journal of Computational Physics},
+	author = {Gingold, R. A. and Monaghan, J. J.},
+	year = {1982},
+	pages = {429--453},
+	file = {Gingold and Monaghan - 1982 - Kernel estimates as a basis for general particle m.pdf:/home/tfaria/Thesis/papers/Gingold and Monaghan - 1982 - Kernel estimates as a basis for general particle m.pdf:application/pdf}
+}
+@article{gingold_binary_1978,
+	title = {Binary fission in damped rotating polytropes},
+	url = {http://inis.iaea.org/Search/search.aspx?orig_q=RN:9413122},
+	urldate = {2014-09-23},
+	author = {Gingold, R. A. and Monaghan, J. J.},
+	year = {1978},
+	file = {Snapshot:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/FPVGQ67K/search.html:text/html}
+}
+@article{gingold_numerical_1979,
+	title = {A numerical study of the Roche and Darwin problems for polytropic stars},
+	volume = {188},
+	issn = {0035-8711, 1365-2966},
+	url = {http://mnras.oxfordjournals.org/content/188/1/45},
+	doi = {10.1093/mnras/188.1.45},
+	abstract = {This paper presents a numerical study of the disruption of compressible stars in unstable binary systems. The gas is assumed to be inviscid, and the equation of state polytropic, but otherwise no restrictive assumptions are made. In particular, we allow the gas to move arbitrarily in three dimensions.
+The configurations we examine are similar to the classical Roche and Darwin problems. They are binaries initially in synchronous, circular orbits which become dynamically unstable when the orbital radius is sufficiently small.
+The results show that the classical formulae for the onset of disruption, where they can be tested, are also reasonably accurate for compressible stars. The final states of the unstable systems reveal a variety of one- and two-armed spirals, and complex ring structures. They are similar to some of those found by A. and J. Toomre, and corroborate their view that rotating systems, under the influence of strong non-axisymmetric perturbations, produce thin tails and spiral structure very easily.},
+	language = {en},
+	number = {1},
+	urldate = {2014-09-23},
+	journal = {Monthly Notices of the Royal Astronomical Society},
+	author = {Gingold, R. A. and Monaghan, J. J.},
+	month = sep,
+	year = {1979},
+	pages = {45--58},
+	file = {Full Text PDF:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/R6AI3W8S/Gingold and Monaghan - 1979 - A numerical study of the Roche and Darwin problems.pdf:application/pdf;Snapshot:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/B757W4KH/45.html:text/html}
+}
+@article{r._a._gingold_roche_1980,
+	title = {The Roche problem for polytropes in central orbits},
+	volume = {191},
+	issn = {0035-8711},
+	journal = {Monthly Notices of the Royal Astronomical Society},
+	author = {R. A. Gingold, J. J. Monaghan},
+	year = {1980},
+	pages = {897--924},
+	file = {The Roche problem for polytropes in central orbits - ResearchGate:/home/tfaria/.mozilla/firefox/v0zin0d7.default/zotero/storage/CBTZT8FN/234278830_The_Roche_problem_for_polytropes_in_central_orbits.html:text/html}
+}

@@ -1,0 +1,49 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                                              %%%%%%
+%%%%  Autor: Name des Autors                      %%%%%%
+%%%%                                              %%%%%%
+%%%%  e-mail: emailadresse@tum.de                 %%%%%%
+%%%%                                              %%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% loading of Document Settings
+\input{chapters/header}
+
+\graphicspath{ {images/}}
+
+% document beginning
+\begin{document}
+
+ % preloading
+\frontmatter                  
+\pagenumbering{Roman}
+
+%Title page as pdf
+\includepdf[pages={1}]{frontcover/cover.pdf}
+
+\include{chapters/Cover}
+\include{chapters/Summary}
+\include{chapters/Abstract}
+\include{chapters/Acknowledgments}
+
+% Table of Contents
+\tableofcontents             
+
+% main part
+\mainmatter                   
+\include{chapters/Introduction}
+
+
+\include{chapters/Conclusions}
+\appendix
+\include{chapters/Appendix}
+\backmatter
+\listoffigures               % List of Figures
+\addcontentsline{toc}{chapter}{List of Figures}
+%\listoftables                % list of Tables
+\bibliographystyle{alpha}
+\bibliography{references}
+
+\include{chapters/Declaration}
+
+\end{document}

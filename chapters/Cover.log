@@ -1,0 +1,423 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.27)  19 SEP 2014 17:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Cover.tex
+(./Cover.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13   \begin{center}
+                     
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 13--13
+[] 
+ []
+
+
+Overfull \hbox (52.94768pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 Institute 
+ []
+
+
+Overfull \hbox (11.35818pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 of 
+ []
+
+
+Overfull \hbox (34.0696pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 Aero- 
+ []
+
+
+Overfull \hbox (19.97475pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 dy- 
+ []
+
+
+Overfull \hbox (31.33295pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 nam- 
+ []
+
+
+Overfull \hbox (15.7448pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 ics 
+ []
+
+
+Overfull \hbox (22.71638pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 and 
+ []
+
+
+Overfull \hbox (32.70126pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 Fluid 
+ []
+
+
+Overfull \hbox (23.88638pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 Me- 
+ []
+
+
+Overfull \hbox (33.29124pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 chan- 
+ []
+
+
+Overfull \hbox (15.7448pt too wide) in paragraph at lines 14--14
+ \OT1/cmr/m/n/14.4 ics 
+ []
+
+Missing character: There is no ä in font cmr12!
+Missing character: There is no ü in font cmr12!
+
+Overfull \hbox (66.26917pt too wide) in paragraph at lines 15--15
+ []\OT1/cmr/m/n/14.4 Technische 
+ []
+
+
+Overfull \hbox (27.01968pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/m/n/14.4 Uni- 
+ []
+
+
+Overfull \hbox (23.4997pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/m/n/14.4 ver- 
+ []
+
+
+Overfull \hbox (20.44473pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/m/n/14.4 sitt 
+ []
+
+
+Overfull \hbox (48.56108pt too wide) in paragraph at lines 15--15
+ \OT1/cmr/m/n/14.4 Mnchen 
+ []
+
+! Undefined control sequence.
+<recently read> \huge 
+                      
+l.18 ...mics Simulation of a Swimming Rigid Body}}
+                                                  \\[1ex]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (70.84157pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Smoothed 
+ []
+
+
+Overfull \hbox (30.5083pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Par- 
+ []
+
+
+Overfull \hbox (16.19997pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 ti- 
+ []
+
+
+Overfull \hbox (19.09164pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 cle 
+ []
+
+
+Overfull \hbox (26.36665pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Dy- 
+ []
+
+
+Overfull \hbox (35.77495pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 nam- 
+ []
+
+
+Overfull \hbox (18.09pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 ics 
+ []
+
+
+Overfull \hbox (32.39995pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Sim- 
+ []
+
+
+Overfull \hbox (14.39998pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 u- 
+ []
+
+
+Overfull \hbox (17.77496pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 la- 
+ []
+
+
+Overfull \hbox (27.89995pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 tion 
+ []
+
+
+Overfull \hbox (13.04999pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 of 
+ []
+
+
+Overfull \hbox (7.87498pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 a 
+ []
+
+
+Overfull \hbox (44.09993pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Swim- 
+ []
+
+
+Overfull \hbox (35.09995pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 ming 
+ []
+
+
+Overfull \hbox (38.18329pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Rigid 
+ []
+
+
+Overfull \hbox (37.84161pt too wide) in paragraph at lines 18--18
+ \OT1/cmr/bx/n/14.4 Body 
+ []
+
+
+Overfull \hbox (39.8416pt too wide) in paragraph at lines 22--22
+ []\OT1/cmr/bx/n/14.4 Tiago 
+ []
+
+
+Overfull \hbox (71.28992pt too wide) in paragraph at lines 22--22
+ \OT1/cmr/bx/n/14.4 Goncalves 
+ []
+
+
+Overfull \hbox (35.69994pt too wide) in paragraph at lines 22--22
+ \OT1/cmr/bx/n/14.4 Faria 
+ []
+
+
+Overfull \hbox (34.06958pt too wide) in paragraph at lines 23--23
+ []\OT1/cmr/m/n/14.4 Mat.- 
+ []
+
+
+Overfull \hbox (19.96977pt too wide) in paragraph at lines 23--23
+ \OT1/cmr/m/n/14.4 Nr. 
+ []
+
+
+Overfull \hbox (56.39929pt too wide) in paragraph at lines 23--23
+ \OT1/cmr/m/n/14.4 03627399 
+ []
+
+
+Overfull \hbox (18.01643pt too wide) in paragraph at lines 25--25
+ []\OT1/cmr/m/n/14.4 11. 
+ []
+
+
+Overfull \hbox (21.93306pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/m/n/14.4 Oc- 
+ []
+
+
+Overfull \hbox (17.23311pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/m/n/14.4 to- 
+ []
+
+
+Overfull \hbox (19.97473pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/m/n/14.4 ber 
+ []
+
+
+Overfull \hbox (28.19965pt too wide) in paragraph at lines 25--25
+ \OT1/cmr/m/n/14.4 2014 
+ []
+
+
+Overfull \hbox (42.76448pt too wide) in paragraph at lines 27--27
+ []\OT1/cmr/m/n/14.4 Master 
+ []
+
+
+Overfull \hbox (28.98297pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 The- 
+ []
+
+
+Overfull \hbox (15.03981pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 sis 
+ []
+
+
+Overfull \hbox (11.74985pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 in 
+ []
+
+
+Overfull \hbox (33.68292pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 Com- 
+ []
+
+
+Overfull \hbox (40.73282pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 putan- 
+ []
+
+
+Overfull \hbox (29.76628pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 ional 
+ []
+
+
+Overfull \hbox (23.88638pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 Me- 
+ []
+
+
+Overfull \hbox (33.29124pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 chan- 
+ []
+
+
+Overfull \hbox (15.7448pt too wide) in paragraph at lines 27--27
+ \OT1/cmr/m/n/14.4 ics 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...Master Thesis in Computanional Mechanics\\
+                                                  [1ex]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (35.05122pt too wide) in paragraph at lines 30--30
+ []\OT1/cmr/m/n/14.4 Dipl.- 
+ []
+
+
+Overfull \hbox (23.88638pt too wide) in paragraph at lines 30--30
+ \OT1/cmr/m/n/14.4 Ing. 
+ []
+
+
+Overfull \hbox (22.32472pt too wide) in paragraph at lines 30--30
+ \OT1/cmr/m/n/14.4 xxx 
+ []
+
+
+Overfull \hbox (38.37787pt too wide) in paragraph at lines 31--31
+ []\OT1/cmr/m/n/14.4 Univ.- 
+ []
+
+
+Overfull \hbox (30.35129pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 Prof. 
+ []
+
+
+Overfull \hbox (24.86803pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 Dr.- 
+ []
+
+
+Overfull \hbox (23.88638pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 Ing. 
+ []
+
+
+Overfull \hbox (26.628pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 Kai- 
+ []
+
+
+Overfull \hbox (26.62804pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 Uwe 
+ []
+
+
+Overfull \hbox (30.35129pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 Blet- 
+ []
+
+
+Overfull \hbox (36.8162pt too wide) in paragraph at lines 31--31
+ \OT1/cmr/m/n/14.4 zinger 
+ []
+
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> Cover.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 17 strings out of 493304
+ 246 string characters out of 6139871
+ 53880 words of memory out of 5000000
+ 3572 multiletter control sequences out of 15000+600000
+ 4245 words of font info for 16 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 15i,4n,10p,105b,196s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
