@@ -1,4 +1,12 @@
-\begin{thebibliography}{RAG80}
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{THW{\etalchar{+}}10}
+
+\bibitem[BS10]{borazjani_role_2010}
+I.~Borazjani and F.~Sotiropoulos.
+\newblock On the role of form and kinematics on the hydrodynamics of
+  self-propelled body/caudal fin swimming.
+\newblock {\em The Journal of Experimental Biology}, 213(1):89--107, January
+  2010.
 
 \bibitem[GM77]{gingold_smoothed_1977}
 R.~A. Gingold and J.~J. Monaghan.
@@ -25,10 +33,25 @@ R.~A. Gingold and J.~J. Monaghan.
   hydrodynamics.
 \newblock {\em Journal of Computational Physics}, 46(3):429--453, 1982.
 
+\bibitem[KK06]{kern_simulations_2006}
+Stefan Kern and Petros Koumoutsakos.
+\newblock Simulations of optimized anguilliform swimming.
+\newblock {\em The Journal of Experimental Biology}, 209(Pt 24):4841--4857,
+  December 2006.
+
+\bibitem[lam]{lammps_manual}
+Lammps users manual.
+
 \bibitem[Luc77]{lucy_numerical_1977}
 L.~B. Lucy.
 \newblock A numerical approach to the testing of the fission hypothesis.
 \newblock {\em The Astronomical Journal}, 82:1013, December 1977.
+
+\bibitem[McH05]{mchenry_morphology_2005}
+Matthew~J McHenry.
+\newblock The morphology, behavior, and biomechanics of swimming in ascidian
+  larvae.
+\newblock {\em Canadian Journal of Zoology}, 83(1):62--74, January 2005.
 
 \bibitem[Mon05]{monaghan_smoothed_2005}
 J~J Monaghan.
@@ -45,5 +68,30 @@ J.~J.~Monaghan R.~A.~Gingold.
 \newblock The roche problem for polytropes in central orbits.
 \newblock {\em Monthly Notices of the Royal Astronomical Society},
   191:897--924, 1980.
+
+\bibitem[SL06]{shadwick_fish_2006}
+R~Shadwick and G.~Lauder.
+\newblock Fish biomechanics.
+\newblock {\em Books}, January 2006.
+
+\bibitem[SYL01]{sawada_biology_2001}
+Hitoshi Sawada, Hideyoshi Yokosawa, and Charles~C. Lambert.
+\newblock {\em The Biology of Ascidians}.
+\newblock Springer, January 2001.
+
+\bibitem[THW{\etalchar{+}}10]{tytell_interactions_2010}
+Eric~D. Tytell, Chia-Yu Hsu, Thelma~L. Williams, Avis~H. Cohen, and Lisa~J.
+  Fauci.
+\newblock Interactions between internal forces, body stiffness, and fluid
+  environment in a neuromechanical model of lamprey swimming.
+\newblock {\em Proceedings of the National Academy of Sciences},
+  107(46):19832--19837, 2010.
+
+\bibitem[Wil10]{williams_new_2010}
+Thelma~L. Williams.
+\newblock A new model for force generation by skeletal muscle, incorporating
+  work-dependent deactivation.
+\newblock {\em The Journal of Experimental Biology}, 213(4):643--650, February
+  2010.
 
 \end{thebibliography}

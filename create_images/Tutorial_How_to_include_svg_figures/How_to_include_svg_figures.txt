@@ -14,3 +14,18 @@
   
 % add inkscape-folder to enviroment variable PATH
 % restart your computer
+
+
+
+Original Kile:
+-interaction=nonstopmode '%source'
+
+
+\begin{figure}[ht]
+  \centering
+  \begin{footnotesize}
+  \includegraphics[scale=0.25]{images/swimmer-simple-klein.png}
+  \caption[Bildbeschreibung kurz 1]{Bead-Spring Model}
+  \label{fig:Bild4}
+  \end{footnotesize}
+\end{figure} 
