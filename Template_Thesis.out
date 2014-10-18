@@ -10,11 +10,11 @@
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Macroscopic Swimmers}{section.2.1}% 10
 \BOOKMARK [1][-]{section.2.2}{2.2 Swimmer Mechanics}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{3 LAMMPS Code Modifications}{}% 12
-\BOOKMARK [1][-]{section.3.1}{3.1 Section}{chapter.3}% 13
+\BOOKMARK [1][-]{section.3.1}{3.1 LAMMPS SPH module test case}{chapter.3}% 13
 \BOOKMARK [1][-]{section.3.2}{3.2 Section}{chapter.3}% 14
 \BOOKMARK [0][-]{chapter.4}{4 Conclusions and Outlook}{}% 15
 \BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 16
-\BOOKMARK [1][-]{section.A.1}{A.1 Input file with NURBS volume element}{appendix.A}% 17
+\BOOKMARK [1][-]{section.A.1}{A.1 Input file for Shear Cavity Flow simulation}{appendix.A}% 17
 \BOOKMARK [0][-]{appendix*.4}{List of Figures}{}% 18
 \BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 19
 \BOOKMARK [0][-]{appendix*.6}{Declaration}{}% 20

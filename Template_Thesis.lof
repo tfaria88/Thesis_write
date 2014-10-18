@@ -6,11 +6,12 @@
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Swimmer Structure}}{6}{figure.2.3}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Bead-Spring Structure}}{6}{figure.2.4}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)}}{7}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces inprogress}}{7}{figure.2.6}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Swimmer deformed into a wave format with compressed head}}{7}{figure.2.6}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Structure of the swimmer describing the internal bonds (red), the swimmer surface bonds (black) and the head flesh particles and bonds(blue)}}{8}{figure.2.7}
 \contentsline {figure}{\numberline {2.8}{\ignorespaces inprogress}}{8}{figure.2.8}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)}}{9}{figure.3.1}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces (a) Simulation snapshot of the shear driven fluid filled cavity. Particles are colored according to their kinetic energy. (b) Set of particles located in the cavity centerline used to calculate the velocity profile.}}{9}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Velocity profile along centerline of the cavity with SPH and FDM solutions from \cite {neece_tait_1968} , (b) Simulation results for velocity profile along centerline }}{10}{figure.3.2}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

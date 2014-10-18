@@ -9,27 +9,42 @@
 \chapter{LAMMPS Code Modifications}
 \label{chap:chapter_3}
 
-\section{Section}
-\label{sec:section_1}
-
 LAMMPS is a molecular dynamics code that models particles in a liquid, solid or gaseous state\cite{lammps_manual}. It can model atomic and polymeric systems using a variety of force fields and
 boundary conditions. Even that code is primarily aimed for molecular dynamics simulations of atomistic systems, it provides a fully parallelized framework for particle simulations
 governed by Newton's equations of motion. Due to its particle nature, SPH is totally compatible with the existing code architecture and data structures present in LAMMPS. There is 
 an add-on module in LAMMPS that includes the SPH module into the code.\par
-First, it was necessary to perfom an example case to have a better understanding of the code usage and to ensure the SPH-package works successfully. The example case was taken from 
-the SPH-USER Documention from LAMMPS documentation\cite{ganzenmuller_implementation_2011},
+
+\section{LAMMPS SPH module test case}
+\label{sec:section_1}
+
+First, it was necessary to perfom a validation case to have a better understanding of the code usage and to ensure the SPH-package works successfully. The case was taken from 
+the SPH-USER Documentation from LAMMPS documentation\cite{ganzenmuller_implementation_2011}. This simulation consists on a shear cavity flow, which is a standard test for a laminar
+flow profile. It was considered a 2D square lattice of fluid particles with the top edge moving at a constant speed at a constant speed of $10^-3m/s$. The other three edges are kept
+stationary. The driven driven fluid inside is represented by Tait's equation of state \cite{neece_tait_1968} with Morris' laminar flow viscosity. and the kinematic viscosity used is
+$\nu=10^-6m^2/s$. A steady-state flow is reached after some thousand cycles and it is shown in Figure~\ref{fig:Bild1}(a). A centerline in the cavity was taken to select some particles
+to analyse their velocities (Figure~\ref{fig:Bild1}(b)). The velocity profile along the vertical centerline of the cavity 
+agrees pretty well qualitatively with a Finite Difference solution and the results achieved in the SPH-USER documentation (Figure~\ref{fig:Bild2}). The input script is in ~\ref{app:NURBSVolumenelement}.
 
 
 \begin{figure}[ht]
 \centering
   \begin{footnotesize}
-  \includesvg{images/cavity}
-  \caption[Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)]{Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)}
-  \label{fig:Bild3}
+  \includesvg{images/cavity_simu}
+  \caption[(a) Simulation snapshot of the shear driven fluid filled cavity. Particles are colored according to their kinetic energy. (b) Set of particles located in the cavity centerline used to calculate the velocity profile.]{(a) Simulation snapshot of the shear driven fluid filled cavity. Particles are colored according to their kinetic energy. (b) Set of particles located in the cavity centerline used to calculate the velocity profile.}
+  \label{fig:Bild1}
   \end{footnotesize}
 \end{figure} 
 
 
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/cavity_graphics}
+  \caption[(a) Velocity profile along centerline of the cavity with SPH and FDM solutions from \cite{neece_tait_1968} , (b) Simulation results for velocity profile along centerline ]{(a) Velocity profile along centerline of the cavity with SPH and FDM solutions from \cite{neece_tait_1968} , (b) Simulation results for velocity profile along centerline }
+  \label{fig:Bild2}
+  \end{footnotesize}
+\end{figure} 
 
 
 

@@ -11,11 +11,11 @@
 \contentsline {subsection}{\numberline {2.1.2}Macroscopic Swimmers}{4}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Swimmer Mechanics}{6}{section.2.2}
 \contentsline {chapter}{\numberline {3}LAMMPS Code Modifications}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Section}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Section}{9}{section.3.2}
-\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{10}{chapter.4}
-\contentsline {chapter}{\numberline {A}Appendix}{11}{appendix.A}
-\contentsline {section}{\numberline {A.1}Input file with NURBS volume element}{11}{section.A.1}
-\contentsline {chapter}{List of Figures}{12}{appendix*.4}
-\contentsline {chapter}{\nonumberline Bibliography}{13}{appendix*.5}
-\contentsline {chapter}{\nonumberline Declaration}{15}{appendix*.6}
+\contentsline {section}{\numberline {3.1}LAMMPS SPH module test case}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Section}{10}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{11}{chapter.4}
+\contentsline {chapter}{\numberline {A}Appendix}{12}{appendix.A}
+\contentsline {section}{\numberline {A.1}Input file for Shear Cavity Flow simulation}{12}{section.A.1}
+\contentsline {chapter}{List of Figures}{14}{appendix*.4}
+\contentsline {chapter}{\nonumberline Bibliography}{15}{appendix*.5}
+\contentsline {chapter}{\nonumberline Declaration}{17}{appendix*.6}
