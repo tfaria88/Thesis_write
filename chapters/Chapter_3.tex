@@ -48,7 +48,32 @@ agrees pretty well qualitatively with a Finite Difference solution and the resul
 
 
 
-\section{Section}
+\section{Create a swimmer in LAMMPS}
 \label{sec:section 2}
 
+LAMMPS is ready to create particles and bonds between particles, but there is no specific routine to create swimmers. The desired swimmer structure is described in Figure~\ref{fig:Bild2.7}
+and to create this design it is not so straightfoward. A new routine was created as an input file to introduce swimmers in the simulation according to the necessary input parameters
+required by the code. This input file was called \textit{"addswimmer"} and wrote in AWK programming language as it is very convenient for easily writting data files. It has 
+the capability of adding one or more swimmers in any position inside the simulation box.\par
 
+There are some variables which need to be initially defined in this file to create the swimmer. The first variable is the number of swimmers present in the simulation, and for each swimmer
+it must be defined the $x$ and $y$ cordinates of the swimmer starting point, and this point is the first particle of the tail (from left to the right) in the lower corner.
+The next parameters to be settled are the tail length and the head length, where the first is a function of the total swimmer length ( $2/9$ of the total length) and the second is
+a free parameter, here defined as three particles length. With those initial parameters the initial structure is created as described in Figure~\ref{fig:Bild2.5}, some extra functions
+have the aim to remodel the swimmer and to output the necessary data for LAMMPS to use as input parameters. The function \textit{xy2id} transforms the particle $x$ and $y$ coordinates
+to the particle ID, as this data is essencial for the output data to create the bonds. The function \textit{is$\_$on$\_$grid} is used to smooth the head format, deleting the corner
+particles from the square grid in the head. Function \textit{bond$\_$filter} adds filters to change the bonds configuration in the swimmer head. The next set of functions have the aim
+to differ the bond types from the active tail surface (active bonds), passive tail surface and head (passive bonds) and the internal bonds (strong bonds). One special function called
+\textit{add$\_$line$\_$to$\_$change$\_$type} differs the bond type of the head flesh region to the rest of the passive bonds. The last function to be used is the \textit{create$\_$swimmer}
+which attach all the previous functions and creates the desired swimmer configuration and it outputs the LAMMPS data file containing the number of atoms, number of bonds, number of 
+atom types and simulation box size (defined in a initial input file outside \textit{"addswimmer"}), and a list of atoms, velocities and bonds. The code file of \textit{"addswimmer"}
+and one example of output fie created by it is available in Appendix ~\ref{app:addswimmer}.
+
+\section{Bond Style Harmonic Shift}
+\label{sec:section 3}
+
+
+
+
+
+ 

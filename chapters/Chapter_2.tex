@@ -134,7 +134,7 @@ the two beads (spring constant K).\par
 \end{figure} 
 
 For the simulations, the swimmer has a total number of 100 particles, where three of those forms the swimmer head. Initially, it was used a square form for the head due to
-simplifications, and after validating the method to create swimmers in LAMMPS, the swimmer was implemented with it final configuration which it is shown in Figure~\ref{fig:Bild3}.
+simplifications, and after validating the method to create swimmers in LAMMPS, the swimmer was implemented with it final configuration which it is shown in Figure~\ref{fig:Bild2.5}.
 In the final configuration the head has not a square format but an octagonal format which comes closer to the a circular/elliptical desired format.\par 
 When the body starts to swim, the head takes a new format due to its mass properties. The fluid compress the head flesh turning it into a even more soft format getting closer to an 
 ellipse and avoiding high corner angles(Figure~\ref{fig:Bild4}). It is also possible to observe in the sketch that the internal bonds get a new format when the swimmer starts to
@@ -145,7 +145,7 @@ deform into a wave format. This new format of the internal bonds gives a better 
   \begin{footnotesize}
   \includesvg{images/swimmer-compare-final}
   \caption[Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)]{Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)}
-  \label{fig:Bild3}
+  \label{fig:Bild2.5}
   \end{footnotesize}
 \end{figure} 
 
@@ -175,7 +175,7 @@ lines have a different bond type compared with the rest of the swimmer, as they 
 a local spontaneous curvature. A sinusoidal variation of the bond length as a function of the contour length and time then generates the sinusoidal propagating wave of the active
 lines. This approach is the most common in literature models, to prescribe the swimmer motion.\par
 
-In Figure~\ref{fig:Bild5}, the red lines show the internal bonds with a higher stiffness relative with the rest of the swimmer, the blue points connected by the blue line show the 
+In Figure~\ref{fig:Bild2.7}, the red lines show the internal bonds with a higher stiffness relative with the rest of the swimmer, the blue points connected by the blue line show the 
 head flesh which has an smaller mass and gets deformed as it swimms.\par
 Many changes were applied in LAMMPS code as it was not ready to create specifically swimmers. Those changes are shown in the Chapter 3.
 
@@ -185,7 +185,7 @@ Many changes were applied in LAMMPS code as it was not ready to create specifica
   \begin{footnotesize}
   \includegraphics[scale=0.25]{images/swimmer-compare.png}
   \caption[Structure of the swimmer describing the internal bonds (red), the swimmer surface bonds (black) and the head flesh particles and bonds(blue)]{Structure of the swimmer describing the internal bonds (red), the swimmer surface bonds (black) and the head flesh particles and bonds (blue)}
-  \label{fig:Bild5}
+  \label{fig:Bild2.7}
   \end{footnotesize}
 \end{figure} 
 
