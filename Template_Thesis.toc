@@ -5,16 +5,17 @@
 \contentsline {section}{\numberline {1.1}Smoothed Particle Hydronamics}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}SPH Formulation}{1}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Section}{2}{section.1.2}
-\contentsline {chapter}{\numberline {2}Swimmer Model}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}Swimmers in Nature}{6}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Swimming of Narrow Animals}{6}{subsection.2.1.1}
+\contentsline {chapter}{\numberline {2}Swimmer Model}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Swimmers in Nature}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Microscopic Swimmers}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Macroscopic Swimmers}{4}{subsection.2.1.2}
 \contentsline {section}{\numberline {2.2}Swimmer Mechanics}{6}{section.2.2}
-\contentsline {chapter}{\numberline {3}LAMMPS Code Modifications}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}Section}{10}{section.3.1}
-\contentsline {section}{\numberline {3.2}Section}{10}{section.3.2}
-\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{11}{chapter.4}
-\contentsline {chapter}{\numberline {A}Appendix}{12}{appendix.A}
-\contentsline {section}{\numberline {A.1}Input file with NURBS volume element}{12}{section.A.1}
-\contentsline {chapter}{List of Figures}{13}{appendix*.4}
-\contentsline {chapter}{\nonumberline Bibliography}{14}{appendix*.5}
+\contentsline {chapter}{\numberline {3}LAMMPS Code Modifications}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Section}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}Section}{9}{section.3.2}
+\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{10}{chapter.4}
+\contentsline {chapter}{\numberline {A}Appendix}{11}{appendix.A}
+\contentsline {section}{\numberline {A.1}Input file with NURBS volume element}{11}{section.A.1}
+\contentsline {chapter}{List of Figures}{12}{appendix*.4}
+\contentsline {chapter}{\nonumberline Bibliography}{13}{appendix*.5}
 \contentsline {chapter}{\nonumberline Declaration}{15}{appendix*.6}

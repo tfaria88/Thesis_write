@@ -19,48 +19,49 @@ Repeated entry---line 347 of file references.bib
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in lammps_manual
 Warning--empty journal in gingold_binary_1978
+Warning--empty journal in ganzenmuller_implementation_2011
 Warning--empty author in lammps_manual
 Warning--empty journal in lammps_manual
 Warning--empty year in lammps_manual
-You've used 16 entries,
+You've used 27 entries,
             2543 wiz_defined-function locations,
-            657 strings with 6818 characters,
-and the built_in function-call counts, 5969 in all, are:
-= -- 608
-> -- 242
-< -- 6
-+ -- 82
-- -- 76
-* -- 471
-:= -- 982
-add.period$ -- 46
-call.type$ -- 16
-change.case$ -- 91
-chr.to.int$ -- 16
-cite$ -- 22
-duplicate$ -- 228
-empty$ -- 445
-format.name$ -- 95
-if$ -- 1182
+            724 strings with 8292 characters,
+and the built_in function-call counts, 10093 in all, are:
+= -- 1020
+> -- 431
+< -- 10
++ -- 146
+- -- 138
+* -- 790
+:= -- 1668
+add.period$ -- 78
+call.type$ -- 27
+change.case$ -- 156
+chr.to.int$ -- 27
+cite$ -- 34
+duplicate$ -- 383
+empty$ -- 749
+format.name$ -- 172
+if$ -- 2001
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 17
-newline$ -- 82
-num.names$ -- 45
-pop$ -- 70
+missing$ -- 29
+newline$ -- 136
+num.names$ -- 78
+pop$ -- 128
 preamble$ -- 1
-purify$ -- 108
+purify$ -- 185
 quote$ -- 0
-skip$ -- 187
+skip$ -- 316
 stack$ -- 0
-substring$ -- 415
-swap$ -- 14
-text.length$ -- 6
-text.prefix$ -- 5
+substring$ -- 662
+swap$ -- 24
+text.length$ -- 10
+text.prefix$ -- 9
 top$ -- 0
-type$ -- 124
-warning$ -- 5
-while$ -- 62
-width$ -- 18
-write$ -- 201
+type$ -- 204
+warning$ -- 6
+while$ -- 104
+width$ -- 31
+write$ -- 339
 (There was 1 error message)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.27)  15 OCT 2014 22:32
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.27)  17 OCT 2014 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,10 +931,10 @@ LaTeX Warning: Label `sec:section_1' multiply defined.
 LaTeX Warning: Label `sec:section 1' multiply defined.
 
 
+LaTeX Warning: Label `sec:section 1' multiply defined.
+
+
 LaTeX Warning: Label `sec:section 2' multiply defined.
-
-
-LaTeX Warning: Label `fig:Bild3' multiply defined.
 
 ) (./chapters/Chapter_3.aux
 
@@ -942,6 +942,9 @@ LaTeX Warning: Label `sec:section_1' multiply defined.
 
 
 LaTeX Warning: Label `sec:section 2' multiply defined.
+
+
+LaTeX Warning: Label `fig:Bild3' multiply defined.
 
 ) (./chapters/Conclusions.aux) (./chapters/Appendix.aux)
 (./chapters/Declaration.aux))
@@ -1081,7 +1084,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box70
 \c@FBLTpage=\count172
 )
-<frontcover/cover.pdf, id=80, 597.50829pt x 845.0471pt>
+<frontcover/cover.pdf, id=84, 597.50829pt x 845.0471pt>
 File: frontcover/cover.pdf Graphic file (type pdf)
 
 <use frontcover/cover.pdf>
@@ -1092,7 +1095,7 @@ File: frontcover/cover.pdf Graphic file (type pdf)
 Package pdftex.def Info: frontcover/cover.pdf used on input line 26.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<frontcover/cover.pdf, id=83, page=1, 597.50829pt x 845.0471pt>
+<frontcover/cover.pdf, id=87, page=1, 597.50829pt x 845.0471pt>
 File: frontcover/cover.pdf Graphic file (type pdf)
 
 <use frontcover/cover.pdf, page 1>
@@ -1211,118 +1214,109 @@ Chapter 1.
 
 
 
-] [2]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 119.
-
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 119.
-
-(./images/Surface_Trimming_Shell_1_1.pdf_tex
-<images/Surface_Trimming_Shell_1_1.pdf, id=201, 426.79132pt x 170.71654pt>
-File: images/Surface_Trimming_Shell_1_1.pdf Graphic file (type pdf)
-
-<use images/Surface_Trimming_Shell_1_1.pdf>
-Package pdftex.def Info: images/Surface_Trimming_Shell_1_1.pdf used on input li
-ne 52.
-(pdftex.def)             Requested size: 426.7913pt x 170.7187pt.
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 53.
-) [3 <./images/Surface_Trimming_Shell_1_1.pdf>] (./images/Surface_Trimming_Shel
-l_pointC_conv.pdf_tex
-<images/Surface_Trimming_Shell_pointC_conv.pdf, id=248, 210.386pt x 181.478pt>
-File: images/Surface_Trimming_Shell_pointC_conv.pdf Graphic file (type pdf)
-
-<use images/Surface_Trimming_Shell_pointC_conv.pdf>
-Package pdftex.def Info: images/Surface_Trimming_Shell_pointC_conv.pdf used on 
-input line 52.
-(pdftex.def)             Requested size: 210.386pt x 181.48584pt.
-)
-(./images/Surface_Trimming_Shell_pointC_conv2.pdf_tex
-<images/Surface_Trimming_Shell_pointC_conv2.pdf, id=249, 210.386pt x 181.478pt>
-File: images/Surface_Trimming_Shell_pointC_conv2.pdf Graphic file (type pdf)
-<use images/Surface_Trimming_Shell_pointC_conv2.pdf>
-Package pdftex.def Info: images/Surface_Trimming_Shell_pointC_conv2.pdf used on
- input line 52.
-(pdftex.def)             Requested size: 210.386pt x 181.48584pt.
-)
-(./images/SpacesOverview_1_1_1.pdf_tex
-<images/SpacesOverview_1_1_1.pdf, id=250, 426.79132pt x 597.50786pt>
-File: images/SpacesOverview_1_1_1.pdf Graphic file (type pdf)
-
-<use images/SpacesOverview_1_1_1.pdf>
-Package pdftex.def Info: images/SpacesOverview_1_1_1.pdf used on input line 52.
-
-(pdftex.def)             Requested size: 426.7913pt x 597.5155pt.
-)) [4 <./images/Surface_Trimming_Shell_pointC_conv.pdf> <./images/Surface_Trimm
-ing_Shell_pointC_conv2.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images/Surface_Trimming_Shell_pointC_
-conv2.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->] [5 <./images/SpacesOverview_1_1_1.pdf>]
+]) [2]
 \openout2 = `chapters/Chapter_2.aux'.
 
  (./chapters/Chapter_2.tex
 Chapter 2.
-[6
+
+Overfull \hbox (23.76018pt too wide) in paragraph at lines 47--53
+\T1/lmr/m/n/10.95 and 1 mm in some fruit flies[[]]. For sperms that have a two-
+dimensional beat-ing pattern[[]],
+ []
+
+runsystem(inkscape -z -C --file=images/bild-micro.svg --export-pdf=images/bild-
+micro.pdf --export-latex)...disabled (restricted).
+
+(./images/bild-micro.pdf_tex
+<images/bild-micro.pdf, id=215, 867.24pt x 621.52202pt>
+File: images/bild-micro.pdf Graphic file (type pdf)
+
+<use images/bild-micro.pdf>
+Package pdftex.def Info: images/bild-micro.pdf used on input line 52.
+(pdftex.def)             Requested size: 250.9375pt x 179.83846pt.
+) [3
 
 
 
-] <images/swimmer-struc.png, id=335, 1045.9075pt x 363.3575pt>
+] (./images/snakes_taylor.pdf_tex
+<images/snakes_taylor.pdf, id=237, 363.75899pt x 738.76pt>
+File: images/snakes_taylor.pdf Graphic file (type pdf)
+
+<use images/snakes_taylor.pdf>
+Package pdftex.def Info: images/snakes_taylor.pdf used on input line 52.
+(pdftex.def)             Requested size: 301.125pt x 611.55865pt.
+) [4 <./images/bild-micro.pdf>] [5 <./images/snakes_taylor.pdf>] <images/swimme
+r-struc.png, id=267, 1045.9075pt x 363.3575pt>
 File: images/swimmer-struc.png Graphic file (type png)
 
 <use images/swimmer-struc.png>
-Package pdftex.def Info: images/swimmer-struc.png used on input line 69.
+Package pdftex.def Info: images/swimmer-struc.png used on input line 115.
 (pdftex.def)             Requested size: 261.47623pt x 90.83914pt.
 
-<images/bead-spring.png, id=336, 1204.5pt x 390.45876pt>
+<images/bead-spring.png, id=269, 1204.5pt x 390.45876pt>
 File: images/bead-spring.png Graphic file (type png)
 
 <use images/bead-spring.png>
-Package pdftex.def Info: images/bead-spring.png used on input line 79.
+Package pdftex.def Info: images/bead-spring.png used on input line 130.
 (pdftex.def)             Requested size: 180.6672pt x 58.56628pt.
- (./images/swimmer-compare-final.pdf_tex
-<images/swimmer-compare-final.pdf, id=341, 637.58202pt x 442.45299pt>
+ [6 <./images/swimmer-struc.png> <./images/bead-spring.png>] (./images/swimmer-
+compare-final.pdf_tex
+<images/swimmer-compare-final.pdf, id=286, 637.58202pt x 442.45299pt>
 File: images/swimmer-compare-final.pdf Graphic file (type pdf)
 
 <use images/swimmer-compare-final.pdf>
 Package pdftex.def Info: images/swimmer-compare-final.pdf used on input line 52
 .
 (pdftex.def)             Requested size: 301.125pt x 208.97237pt.
-)
-<images/in-progress.png, id=342, 632.3625pt x 566.115pt>
-File: images/in-progress.png Graphic file (type png)
+) (./images/swimmer-moving.pdf_tex
+<images/swimmer-moving.pdf, id=287, 872.86098pt x 319.594pt>
+File: images/swimmer-moving.pdf Graphic file (type pdf)
 
-<use images/in-progress.png>
-Package pdftex.def Info: images/in-progress.png used on input line 107.
-(pdftex.def)             Requested size: 158.09024pt x 141.5284pt.
- [7 <./images/swimmer-struc.png> <./images/bead-spring.png>] [8 <./images/swimm
-er-compare-final.pdf> <./images/in-progress.png>]
-<images/swimmer-compare.png, id=364, 1063.975pt x 311.1625pt>
+<use images/swimmer-moving.pdf>
+Package pdftex.def Info: images/swimmer-moving.pdf used on input line 52.
+(pdftex.def)             Requested size: 301.125pt x 110.25516pt.
+) [7 <./images/swimmer-compare-final.pdf> <./images/swimmer-moving.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/swimmer-moving.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] <images/swimmer-compare.png, id=307, 1063.975pt x 311.1625pt>
 File: images/swimmer-compare.png Graphic file (type png)
 
 <use images/swimmer-compare.png>
-Package pdftex.def Info: images/swimmer-compare.png used on input line 138.
+Package pdftex.def Info: images/swimmer-compare.png used on input line 186.
 (pdftex.def)             Requested size: 265.9931pt x 77.79044pt.
-) [9 <./images/swimmer-compare.png>]
+
+<images/in-progress.png, id=308, 632.3625pt x 566.115pt>
+File: images/in-progress.png Graphic file (type png)
+
+<use images/in-progress.png>
+Package pdftex.def Info: images/in-progress.png used on input line 204.
+(pdftex.def)             Requested size: 158.09024pt x 141.5284pt.
+) [8 <./images/swimmer-compare.png> <./images/in-progress.png>]
 \openout2 = `chapters/Chapter_3.aux'.
 
-
-(./chapters/Chapter_3.tex
+ (./chapters/Chapter_3.tex
 Chapter 3.
-) [10
+runsystem(inkscape -z -C --file=images/cavity.svg --export-pdf=images/cavity.pd
+f --export-latex)...disabled (restricted).
+
+(./images/cavity.pdf_tex <images/cavity.pdf, id=321, 1232.605pt x 659.26299pt>
+File: images/cavity.pdf Graphic file (type pdf)
+
+<use images/cavity.pdf>
+Package pdftex.def Info: images/cavity.pdf used on input line 52.
+(pdftex.def)             Requested size: 301.125pt x 161.05307pt.
+)) [9
 
 
 
-]
+ <./images/cavity.pdf>]
 \openout2 = `chapters/Conclusions.aux'.
 
  (./chapters/Conclusions.tex
 Chapter 4.
-) [11
+) [10
 
 
 
@@ -1336,7 +1330,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--44
 
  []
 
-[12
+[11
 
 
 
@@ -1344,14 +1338,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--44
 \tf@lof=\write6
 \openout6 = `Template_Thesis.lof'.
 
- (./Template_Thesis.bbl [13
+ (./Template_Thesis.bbl [12
 
 
 
 
-]) [14
+] [13
 
-]
+]) [14]
 \openout2 = `chapters/Declaration.aux'.
 
 
@@ -1370,45 +1364,34 @@ ters/Abstract.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `Template_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 34B8ADDE41E0FFDBAD9FFC6F6A1D9170;1151.
+(rerunfilecheck)             Checksum: 39E948931AC0845E9B1F5A8CEB15AC6A;1225.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15804 strings out of 493304
- 240864 string characters out of 6139871
- 439151 words of memory out of 5000000
- 18740 multiletter control sequences out of 15000+600000
- 96495 words of font info for 90 fonts, out of 8000000 for 9000
+ 15756 strings out of 493304
+ 239655 string characters out of 6139871
+ 433255 words of memory out of 5000000
+ 18703 multiletter control sequences out of 15000+600000
+ 64612 words of font info for 62 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
- 47i,18n,67p,855b,518s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share
-/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cmextra/cmex9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmmi5.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/shar
-e/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/l
-m/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/txfonts/txmia.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts
-/txsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb>
-
-Output written on Template_Thesis.pdf (20 pages, 1060530 bytes).
+ 47i,18n,67p,828b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
+s/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Template_Thesis.pdf (20 pages, 839699 bytes).
 PDF statistics:
- 517 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 79 named destinations out of 1000 (max. 500000)
- 218 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 433 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,16 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{THW{\etalchar{+}}10}
+\begin{thebibliography}{GSVLL11}
+
+\bibitem[BA73]{berg_bacteria_1973}
+Howard~C. Berg and Robert~A. Anderson.
+\newblock Bacteria swim by rotating their flagellar filaments.
+\newblock {\em Nature}, 245(5425):380--382, October 1973.
+
+\bibitem[BL73]{blum_biophysics_1973}
+J~J Blum and J~Lubliner.
+\newblock Biophysics of flagellar motility.
+\newblock {\em Annual Review of Biophysics and Bioengineering}, 2(1):181--219,
+  1973.
 
 \bibitem[BS10]{borazjani_role_2010}
 I.~Borazjani and F.~Sotiropoulos.
@@ -7,6 +18,20 @@ I.~Borazjani and F.~Sotiropoulos.
   self-propelled body/caudal fin swimming.
 \newblock {\em The Journal of Experimental Biology}, 213(1):89--107, January
   2010.
+
+\bibitem[Chi81]{childress_mechanics_1981}
+Stephen Childress.
+\newblock {\em Mechanics of Swimming and Flying}.
+\newblock Cambridge University Press, Cambridge, 1981.
+
+\bibitem[Dig]{digest_natures}
+Biology Digest.
+\newblock Nature's flyers.
+
+\bibitem[EKG10]{elgeti_hydrodynamics_2010}
+Jens Elgeti, U.~Benjamin Kaupp, and Gerhard Gompper.
+\newblock Hydrodynamics of sperm cells near surfaces.
+\newblock {\em Biophysical Journal}, 99(4):1018--1026, August 2010.
 
 \bibitem[GM77]{gingold_smoothed_1977}
 R.~A. Gingold and J.~J. Monaghan.
@@ -33,6 +58,17 @@ R.~A. Gingold and J.~J. Monaghan.
   hydrodynamics.
 \newblock {\em Journal of Computational Physics}, 46(3):429--453, 1982.
 
+\bibitem[GSVLL11]{ganzenmuller_implementation_2011}
+Georg~C. Ganzenmüller, Martin~O. Steinhauser, Paul Van~Liedekerke, and
+  Katholieke~Universtiteit Leuven.
+\newblock The implementation of smooth particle hydrodynamics in {LAMMPS}.
+\newblock 2011.
+
+\bibitem[JBL95]{joly_disentangling_1995}
+D.~Joly, C.~Bressac, and D.~Lachaise.
+\newblock Disentangling giant sperm.
+\newblock {\em Nature}, 377(6546):202--202, September 1995.
+
 \bibitem[KK06]{kern_simulations_2006}
 Stefan Kern and Petros Koumoutsakos.
 \newblock Simulations of optimized anguilliform swimming.
@@ -41,6 +77,11 @@ Stefan Kern and Petros Koumoutsakos.
 
 \bibitem[lam]{lammps_manual}
 Lammps users manual.
+
+\bibitem[LP09]{lauga_hydrodynamics_2009}
+Eric Lauga and Thomas~R Powers.
+\newblock The hydrodynamics of swimming microorganisms.
+\newblock {\em Reports on Progress in Physics}, 72(9):096601, September 2009.
 
 \bibitem[Luc77]{lucy_numerical_1977}
 L.~B. Lucy.
@@ -74,10 +115,21 @@ R~Shadwick and G.~Lauder.
 \newblock Fish biomechanics.
 \newblock {\em Books}, January 2006.
 
+\bibitem[SP06]{suarez_sperm_2006}
+S.~S. Suarez and A.~A. Pacey.
+\newblock Sperm transport in the female reproductive tract.
+\newblock {\em Human Reproduction Update}, 12(1):23--37, February 2006.
+
 \bibitem[SYL01]{sawada_biology_2001}
 Hitoshi Sawada, Hideyoshi Yokosawa, and Charles~C. Lambert.
 \newblock {\em The Biology of Ascidians}.
 \newblock Springer, January 2001.
+
+\bibitem[Tay52]{taylor_analysis_1952}
+Geoffrey Taylor.
+\newblock Analysis of the swimming of long and narrow animals.
+\newblock {\em Proceedings of the Royal Society of London. Series A.
+  Mathematical and Physical Sciences}, 214(1117):158--183, August 1952.
 
 \bibitem[THW{\etalchar{+}}10]{tytell_interactions_2010}
 Eric~D. Tytell, Chia-Yu Hsu, Thelma~L. Williams, Avis~H. Cohen, and Lisa~J.
@@ -86,6 +138,12 @@ Eric~D. Tytell, Chia-Yu Hsu, Thelma~L. Williams, Avis~H. Cohen, and Lisa~J.
   environment in a neuromechanical model of lamprey swimming.
 \newblock {\em Proceedings of the National Academy of Sciences},
   107(46):19832--19837, 2010.
+
+\bibitem[Vog96]{vogel_life_1996}
+Steven Vogel.
+\newblock {\em Life in Moving Fluids: The Physical Biology of Flow}.
+\newblock Princeton University Press, Princeton, N.J., 2nd revised edition
+  edition, April 1996.
 
 \bibitem[Wil10]{williams_new_2010}
 Thelma~L. Williams.

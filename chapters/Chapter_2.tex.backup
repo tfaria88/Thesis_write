@@ -14,7 +14,8 @@
 \label{sec:section_1}
 
 
-Biomechanical principles give the basis for understanding how a swimming body propels itself through a fluid\cite{mchenry_morphology_2005}. For example, an \textit{ascidian larva} creates
+Biomechanical principles give the basis for understanding how a swimming body propels itself through a fluid\cite{mchenry_morphology_2005}, as a swimmer can be defined as
+an organism or object that moves by deforming its body in a periodic way. For example, an \textit{ascidian larva} creates
 \cite{sawada_biology_2001} tail ondulation by the action of its muscles while swimming. This motion generates hydrodynamic forces and torques on the surface of the body that result in a rate and direction
 of motion that are determined by body mass and its spatial distribution. A model accurately incorporating these components should successfully predict the direction, rate, and 
 energetic cost of swimming.\par
@@ -27,25 +28,75 @@ scale. The microorganisms are in the region of low Reynolds number, where inerti
 
 where $\rho$ is the fluid density, $\eta$ is the viscosity and $L$ and $U$ are characteristic velocity and length scales of the flow, respectively.\par
 
-Swimming strategies applied by large animals that run at high Reynolds number, such as fish, snakes 
+Swimming strategies applied by large animals that run at high Reynolds number, such as fish, snakes, birds or insects(\cite{childress_mechanics_1981},\cite{vogel_life_1996},
+\cite{digest_natures}) are not effective at small scales. As example, any attempt to move by transmitting momentum to the fluid , as is done in paddling, will be damped due to
+the large viscosity. Hence, microorganisms have developed propulsion strategies that sucessfully overcome drag.
 
 
-are characteristic velocity and
-length scales of the flow, respectively. Swimming strategies
-employed by larger organisms that operate at high Reynolds
-number, such as fish, birds or insects 
-thesmallscale. Forexample,anyattempttomovebyimparting
-momentum to the fluid, as is done in paddling, will be foiled
-by the large viscous damping. Therefore microorganisms
-have evolved propulsion strategies that successfully overcome
-and exploit drag. The aim of this review is to explain the
-fundamental physics upon which these strategies rest
 
-\subsection{Swimming of Narrow Animals}
+\subsection{Microscopic Swimmers}
+\label{sec:section 1}
+
+Microscopic swimmers have various means to create propulsion. It can be as a stiff helix that is rotated by a motor embedded in the cell wall, as in the case of \textit{E.coli}
+\cite{berg_bacteria_1973}(Figure~\ref{fig:Bild1}(a)), or it can be a flexible filament undergoing whip-like motions due to the action of molecular motors distributed along the
+length of the filament, as in the sperm of many species\cite{blum_biophysics_1973} (Figure~\ref{fig:Bild1} (e) and (f)). Bacterias can swimm in different manners, for example, 
+\textit{Caulobacter Crescentus}  has a single right-handed helical filament(Figure~\ref{fig:Bild1}(b)), driven by a rotary motor that can turn in both direction. The motor of the
+bacterium \textit{Rhodobacter sphaeroides} turns in only one direction but stops from time to time and the flagellar filament forms a compact coil when the motor is stopped and, 
+extends into a helical shape when the motor turns (Figure~\ref{fig:Bild1}(c)).\par
+
+The sperm of many organisms consists of a head containing the genetic material propelled by a fillament with planar or even helical beat pattern, depending on the species. The 
+length of flagellum of sperms varies, $\approx40\mu$ m for humans\cite{suarez_sperm_2006} (Figure~\ref{fig:Bild1}(e), $\approx80\mu$ m for mice(Figure~\ref{fig:Bild1}(f)) and
+1 mm in some fruit flies\cite{joly_disentangling_1995}. For sperms that have a two-dimensional beating pattern\cite{elgeti_hydrodynamics_2010}, the discoidal shape of the sperm
+head, which is slightly inclined with respect to the plane of the flagellar beat, act as a hydrofoil. 
+Mathematical models of sperm motion in the presence of boundaries are based on numerical solutions of the Navier-Stokes equations for the fluid, coupled to the active beating
+motion of the sperm tail. 
+
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/bild-micro}
+  \caption[inprogress]{Drafts of microscopic swimmers , to scale. (a)\textit{E.coli.}. (b)\textit{C. crescentus}. (c) \textit{R. sphareoides}, with flagellar filament in the coiled
+   state. (d)\textit{Spiroplasma}, with a single kink separating regions of right-handed and left-handed coiling. (e) Human spermatozoon. (f) Mouse spermatozoon (g)\textit{Chlamydomonas}.
+   (h) A smallish \textit{Paramecium} \cite{lauga_hydrodynamics_2009}.}
+  \label{fig:Bild2.1}
+  \end{footnotesize}
+\end{figure} 
+
+\subsection{Macroscopic Swimmers}
 \label{sec:section 1}
 
 
+The motions which snakes and fishes make when they swim is a famous study topic\cite{taylor_analysis_1952}. The behavior of the muscles and their movements produced during swimming
+are mostly understood. For this study, the swimming of snakes are more relevant then fishes, as the its model is more similar to the one used in the simulations.\par
 
+The swimming behavior of snakes was studied by Taylor \cite{taylor_analysis_1952}, based on photographs taken by Professor James Gray. In Figure~\ref{fig:Bild2.2}, a snake \textit{Natrix} swimming in water is shown in
+frames. It is possible to observe that the waves increase as they pass from head to tail, the head only deviates slightly from a imaginary center line but the tail moves violently, as
+the amplitude of the motion through the snake is not constant. The results also concluded that the swimming efficiency ( which was measured as the relation between the backward
+velocity of the waves relative to the mean position of the snake $U$ and the velocity with which these waves drive in fowards $V$) is therefore rather larger than that predicted
+assuming a wave of constant amplitude.
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/snakes_taylor}
+  \caption[Snake (\textit{Natrix}) swimming in water ; 5 cm squares, 16 frames per second \cite{taylor_analysis_1952}]{Snake (\textit{Natrix}) swimming in water ; 5 cm squares, 16 frames per second \cite{taylor_analysis_1952}}
+  \label{fig:Bild2.2}
+  \end{footnotesize}
+\end{figure} 
+
+Leechs swimming behavior was also studied by Taylor. In Figure~\ref{fig:Bild2.3}, a sequence of photographs of a large leed swimming in water is exhibited.The leech is not circular
+in section as the snake but approximately elliptical.
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/snakes_taylor}
+  \caption[]{}
+  \label{fig:Bild2.3}
+  \end{footnotesize}
+\end{figure} 
 
 
 \section{Swimmer Mechanics}
@@ -75,7 +126,12 @@ and it particles has the same mass properties as the active tail, but this fragm
 \end{figure} 
 
 
-\begin{figure}
+In this model, the swimmer consists on particles which are connected by bonds and are arranged in a filamentous structure. These particle-bonds connections have a bead-spring 
+structure (Figure~\ref{fig:Bild2}). Initially, all particles in the tail ( active and passive fragments) has the same mass $m$. The bond length $l_{b}$ between neighboring
+particles and the distance between the parallel filaments are identical. The filament length and the distance between filaments is described by harmonic bond potentials between
+the two beads (spring constant K).\par
+
+\begin{figure}[ht]
 \centering
   \begin{footnotesize}
   \includegraphics[scale=0.15]{images/bead-spring.png}
@@ -84,18 +140,14 @@ and it particles has the same mass properties as the active tail, but this fragm
   \end{footnotesize}
 \end{figure} 
 
-In this model, the swimmer consists on particles which are connected by bonds and are arranged in a filamentous structure. These particle-bonds connections have a bead-spring 
-structure (Figure~\ref{fig:Bild2}). Initially, all particles in the tail ( active and passive fragments) has the same mass $m$. The bond length $l_{b}$ between neighboring
-particles and the distance between the parallel filaments are identical. The filament length and the distance between filaments is described by harmonic bond potentials between
-the two beads (spring constant K).\par
-
 For the simulations, the swimmer has a total number of 100 particles, where three of those forms the swimmer head. Initially, it was used a square form for the head due to
 simplifications, and after validating the method to create swimmers in LAMMPS, the swimmer was implemented with it final configuration which it is shown in Figure~\ref{fig:Bild3}.
-In the final configuration the head has not a square format but an octagonal format which comes closer to the a circular/elliptical desired format. Also, when it starts to swim, 
-the head takes a new format due to its mass properties, the fluid compress the head flesh turning it into a even more soft format getting closer to an ellipse and avoiding high
-corner angles(Figure~\ref{fig:Bild4}).\par
+In the final configuration the head has not a square format but an octagonal format which comes closer to the a circular/elliptical desired format.\par 
+When the body starts to swim, the head takes a new format due to its mass properties. The fluid compress the head flesh turning it into a even more soft format getting closer to an 
+ellipse and avoiding high corner angles(Figure~\ref{fig:Bild4}). It is also possible to observe in the sketch that the internal bonds get a new format when the swimmer starts to
+deform into a wave format. This new format of the internal bonds gives a better mobility to the swimmer and avoid these bonds to break with deformation.  \par
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
   \begin{footnotesize}
   \includesvg{images/swimmer-compare-final}
@@ -104,10 +156,10 @@ corner angles(Figure~\ref{fig:Bild4}).\par
   \end{footnotesize}
 \end{figure} 
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
-  \begin{footnotesize}
-  \includegraphics[scale=0.25]{images/in-progress.png}
+  \begin{footnotesize} 
+  \includesvg{images/swimmer-moving}
   \caption[inprogress]{inprogress}
   \label{fig:Bild4}
   \end{footnotesize}
@@ -135,7 +187,7 @@ head flesh which has an smaller mass and gets deformed as it swimms.\par
 Many changes were applied in LAMMPS code as it was not ready to create specifically swimmers. Those changes are shown in the Chapter 3.
 
 
-\begin{figure}
+\begin{figure}[ht]
 \centering
   \begin{footnotesize}
   \includegraphics[scale=0.25]{images/swimmer-compare.png}
@@ -146,4 +198,19 @@ Many changes were applied in LAMMPS code as it was not ready to create specifica
 
 
 
+
+
+
+
+
+
+
+\begin{figure}
+\centering
+  \begin{footnotesize}
+  \includegraphics[scale=0.25]{images/in-progress.png}
+  \caption[inprogress]{inprogress}
+  \label{fig:Bild100}
+  \end{footnotesize}
+\end{figure} 
 
