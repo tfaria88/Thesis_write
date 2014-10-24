@@ -120,7 +120,7 @@ and it particles has the same mass properties as the active tail, but this fragm
 
 
 In this model, the swimmer consists on particles which are connected by bonds and are arranged in a filamentous structure. These particle-bonds connections have a bead-spring 
-structure (Figure~\ref{fig:Bild2}). Initially, all particles in the tail ( active and passive fragments) has the same mass $m$. The bond length $l_{b}$ between neighboring
+structure (Figure~\ref{fig:Bild2.4}). Initially, all particles in the tail ( active and passive fragments) has the same mass $m$. The bond length $l_{b}$ between neighboring
 particles and the distance between the parallel filaments are identical. The filament length and the distance between filaments is described by harmonic bond potentials between
 the two beads (spring constant K).\par
 
@@ -129,7 +129,7 @@ the two beads (spring constant K).\par
   \begin{footnotesize}
   \includegraphics[scale=0.15]{images/bead-spring.png}
   \caption[Bead-Spring Structure]{Bead-Spring structure}
-  \label{fig:Bild2}
+  \label{fig:Bild2.4}
   \end{footnotesize}
 \end{figure} 
 
@@ -175,7 +175,7 @@ lines have a different bond type compared with the rest of the swimmer, as they 
 a local spontaneous curvature. A sinusoidal variation of the bond length as a function of the contour length and time then generates the sinusoidal propagating wave of the active
 lines. This approach is the most common in literature models, to prescribe the swimmer motion.\par
 
-In Figure~\ref{fig:Bild5}, the red lines show the internal bonds with a higher stiffness relative with the rest of the swimmer, the blue points connected by the blue line show the 
+In Figure~\ref{fig:Bild2.7}, the red lines show the internal bonds with a higher stiffness relative with the rest of the swimmer, the blue points connected by the blue line show the 
 head flesh which has an smaller mass and gets deformed as it swimms.\par
 Many changes were applied in LAMMPS code as it was not ready to create specifically swimmers. Those changes are shown in the Chapter 3.
 
@@ -185,7 +185,7 @@ Many changes were applied in LAMMPS code as it was not ready to create specifica
   \begin{footnotesize}
   \includegraphics[scale=0.25]{images/swimmer-compare.png}
   \caption[Structure of the swimmer describing the internal bonds (red), the swimmer surface bonds (black) and the head flesh particles and bonds(blue)]{Structure of the swimmer describing the internal bonds (red), the swimmer surface bonds (black) and the head flesh particles and bonds (blue)}
-  \label{fig:Bild5}
+  \label{fig:Bild2.7}
   \end{footnotesize}
 \end{figure} 
 

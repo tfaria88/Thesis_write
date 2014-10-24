@@ -33,6 +33,13 @@ Jens Elgeti, U.~Benjamin Kaupp, and Gerhard Gompper.
 \newblock Hydrodynamics of sperm cells near surfaces.
 \newblock {\em Biophysical Journal}, 99(4):1018--1026, August 2010.
 
+\bibitem[Gil98]{gillis_neuromuscular_1998}
+G.~B. Gillis.
+\newblock Neuromuscular control of anguilliform locomotion: patterns of red and
+  white muscle activity during swimming in the american eel anguilla rostrata.
+\newblock {\em The Journal of Experimental Biology}, 201(23):3245--3256,
+  December 1998.
+
 \bibitem[GM77]{gingold_smoothed_1977}
 R.~A. Gingold and J.~J. Monaghan.
 \newblock Smoothed particle hydrodynamics - theory and application to
@@ -64,6 +71,13 @@ Georg~C. Ganzenmüller, Martin~O. Steinhauser, Paul Van~Liedekerke, and
 \newblock The implementation of smooth particle hydrodynamics in {LAMMPS}.
 \newblock 2011.
 
+\bibitem[Jay88]{jayne_muscular_1988}
+Bruce~C. Jayne.
+\newblock Muscular mechanisms of snake locomotion: An electromyographic study
+  of lateral undulation of the florida banded water snake (nerodia fasciata)
+  and the yellow rat snake (elaphe obsoleta).
+\newblock {\em Journal of Morphology}, 197(2):159--181, August 1988.
+
 \bibitem[JBL95]{joly_disentangling_1995}
 D.~Joly, C.~Bressac, and D.~Lachaise.
 \newblock Disentangling giant sperm.
@@ -77,6 +91,12 @@ Stefan Kern and Petros Koumoutsakos.
 
 \bibitem[lam]{lammps_manual}
 Lammps users manual.
+
+\bibitem[Lon98]{long_muscles_1998}
+John~H. Long.
+\newblock Muscles, elastic energy, and the dynamics of body stiffness in
+  swimming eels.
+\newblock {\em American Zoologist}, 38(4):771--792, September 1998.
 
 \bibitem[LP09]{lauga_hydrodynamics_2009}
 Eric Lauga and Thomas~R Powers.

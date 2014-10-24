@@ -23,45 +23,45 @@ Warning--empty journal in ganzenmuller_implementation_2011
 Warning--empty author in lammps_manual
 Warning--empty journal in lammps_manual
 Warning--empty year in lammps_manual
-You've used 28 entries,
+You've used 31 entries,
             2543 wiz_defined-function locations,
-            730 strings with 8434 characters,
-and the built_in function-call counts, 10509 in all, are:
-= -- 1064
-> -- 450
-< -- 10
-+ -- 152
-- -- 144
-* -- 825
-:= -- 1736
-add.period$ -- 81
-call.type$ -- 28
-change.case$ -- 162
-chr.to.int$ -- 28
-cite$ -- 35
-duplicate$ -- 397
-empty$ -- 779
-format.name$ -- 179
-if$ -- 2084
+            750 strings with 9025 characters,
+and the built_in function-call counts, 11601 in all, are:
+= -- 1180
+> -- 474
+< -- 13
++ -- 158
+- -- 150
+* -- 914
+:= -- 1906
+add.period$ -- 90
+call.type$ -- 31
+change.case$ -- 177
+chr.to.int$ -- 31
+cite$ -- 38
+duplicate$ -- 442
+empty$ -- 871
+format.name$ -- 191
+if$ -- 2304
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 30
-newline$ -- 141
-num.names$ -- 81
-pop$ -- 131
+missing$ -- 33
+newline$ -- 156
+num.names$ -- 90
+pop$ -- 140
 preamble$ -- 1
-purify$ -- 192
+purify$ -- 210
 quote$ -- 0
-skip$ -- 329
+skip$ -- 362
 stack$ -- 0
-substring$ -- 694
-swap$ -- 25
-text.length$ -- 10
-text.prefix$ -- 9
+substring$ -- 796
+swap$ -- 28
+text.length$ -- 13
+text.prefix$ -- 12
 top$ -- 0
-type$ -- 212
+type$ -- 236
 warning$ -- 6
-while$ -- 109
-width$ -- 32
-write$ -- 352
+while$ -- 121
+width$ -- 35
+write$ -- 391
 (There was 1 error message)

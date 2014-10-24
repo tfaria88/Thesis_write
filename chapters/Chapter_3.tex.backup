@@ -262,32 +262,10 @@ amplitude value, the body stiffness is decreased along the body from head to tai
 \textit{Aplidium constellatum}, has a cross section thinning along the body, and this behaviour can be approached reducing the body stiffness along the body. This new model was
 implemented in LAMMPS and the results are shown in Chapter 4. \par
 
-In LAMMPS, a new class was created, called \textit{bond$\_$harmonic$\_$swimmer$\_$extended$\_$k}, to describe this bond style. In this bond style, the wave parameters remained the same, i.e. all previous configurations can be also set with this new class. 
-Previously, the bond stiffness inside the class was defined as:
-
-\begin{equation}
- K = \frac{U_{min}}{( r_{0} - r_{c})^2} ,
-\end{equation}
-
-and now a linear relation was added to this new class, that means that the bond stiffness will linear decrease along the body. This relation is set as:
-
-\begin{equation}
- K = K_{beta} + dn K_{alpha}
-\end{equation}
-
-and
-
-\begin{equation}
- K_{alpha} = \frac{U_{min}}{( r_{0} - r_{c})^2} ,
-\end{equation}
+In LAMMPS, a new class was created to describe this bond style, called \textit{bond$\_$harmonic$\_$swimmer$\_$extended$\_$k}, which is a modification of the previous bond sytle
+\textit{bond/harmonic/swimmer/extended}. In this bond style, the wave parameters remained the same, i.e. all previous configurations can be also set with this new class, it can
 
 
-where $K_{alpha}$ and $K_{beta}$ are the linear parameters to give the local stiffness value and $dn$ measures the distance from the tail tip of the swimmer to the head, as before
-in previous bond style.\par
-
-The user input parameters are the same as before except for the addition of $K_{beta}$. The parameter $K_{alpha}$ is inside calculated based on the potential energy user
-input $U_{min}$. In Appendix~\ref{app:bond harmonic swimmer ext k}, the code file for the \textit{bond$\_$harmonic$\_$swimmer$\_$extended$\_$k} is presented, which include also
-the modification done in \textit{bond$\_$harmonic$\_$swimmer$\_$extended}.
 
 
 

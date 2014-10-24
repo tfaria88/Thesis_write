@@ -13,11 +13,17 @@
 \contentsline {chapter}{\numberline {3}LAMMPS Code Modifications}{9}{chapter.3}
 \contentsline {section}{\numberline {3.1}LAMMPS SPH module test case}{9}{section.3.1}
 \contentsline {section}{\numberline {3.2}Create a swimmer in LAMMPS}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}Bond Style Harmonic Shift}{10}{section.3.3}
-\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{11}{chapter.4}
-\contentsline {chapter}{\numberline {A}Appendix}{12}{appendix.A}
-\contentsline {section}{\numberline {A.1}Input file for Shear Cavity Flow simulation}{12}{section.A.1}
-\contentsline {section}{\numberline {A.2}Addswimmer file and LAMMPS data grid file}{13}{section.A.2}
-\contentsline {chapter}{List of Figures}{20}{appendix*.4}
-\contentsline {chapter}{\nonumberline Bibliography}{21}{appendix*.5}
-\contentsline {chapter}{\nonumberline Declaration}{23}{appendix*.6}
+\contentsline {section}{\numberline {3.3}Bond Style Harmonic Swimmer}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Bond Style Harmonic Swimmer Extended and Extended K}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Bond Style Harmonic Swimmer Extended K}{12}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Bond Style Harmonic Swimmer Extended K}{13}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}SPH Kernel Class}{16}{section.3.5}
+\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{17}{chapter.4}
+\contentsline {chapter}{\numberline {A}Appendix}{18}{appendix.A}
+\contentsline {section}{\numberline {A.1}Input file for Shear Cavity Flow simulation}{18}{section.A.1}
+\contentsline {section}{\numberline {A.2}Addswimmer file and LAMMPS data grid file}{19}{section.A.2}
+\contentsline {section}{\numberline {A.3}\textit {bond$\_$harmonic$\_$swimmer} code file}{25}{section.A.3}
+\contentsline {section}{\numberline {A.4}\textit {bond$\_$harmonic$\_$swimmer$\_$extended$\_$k} code file}{30}{section.A.4}
+\contentsline {chapter}{List of Figures}{36}{appendix*.4}
+\contentsline {chapter}{\nonumberline Bibliography}{37}{appendix*.5}
+\contentsline {chapter}{\nonumberline Declaration}{39}{appendix*.6}
