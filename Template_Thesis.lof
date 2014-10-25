@@ -17,6 +17,11 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces }}{13}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Body shape and tail length of larvae of \textit {Herdmania pallida} and \textit {Aplidium constellatum}\cite {mchenry_morphology_2005}}}{14}{figure.3.6}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic diagram of a swimming \textit {C. intestinalis} larva with its sensory and motor organs highlighted}}{15}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces For a given muscle activation pattern, there are different optimal stiffness values for maximum acceleration or steady swimming speed.The plots show four swimmers with increasing stiffness: tan dotted line, simulation 4, Table 1; green long dashes, simulation 5; black, reference simulation; and cyan short dashes, simulation 6. (A) Swimming speed vs. time. (B)Body outlines for each swimmer at the time indicated by the arrow on panel. (C) Mean acceleration during the first tail beat. (D) Mean steady swimming speed. (E) Muscle power coefficient}}{16}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Sketch of the smoothing kernel length $h_{i}$ and its influence domainSketch of the smoothing kernel length $h_{i}$ and its influence domain}}{17}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Gaussian kernel plotted with $R=\frac {|r-r'|}{h}$ and Gaussian distribution in particle domain}}{18}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces B-spline function plotted compared to Gaussian distribution}}{19}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Quintic function plotted compared to Gaussian distribution}}{19}{figure.3.12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

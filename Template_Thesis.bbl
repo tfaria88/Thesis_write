@@ -71,6 +71,12 @@ Georg~C. Ganzenmüller, Martin~O. Steinhauser, Paul Van~Liedekerke, and
 \newblock The implementation of smooth particle hydrodynamics in {LAMMPS}.
 \newblock 2011.
 
+\bibitem[Jay85]{jayne_swimming_1985}
+Bruce~C. Jayne.
+\newblock Swimming in constricting (elaphe g. guttata) and nonconstricting
+  (nerodia fasciata pictiventris) colubrid snakes.
+\newblock {\em Copeia}, 1985(1):195, February 1985.
+
 \bibitem[Jay88]{jayne_muscular_1988}
 Bruce~C. Jayne.
 \newblock Muscular mechanisms of snake locomotion: An electromyographic study

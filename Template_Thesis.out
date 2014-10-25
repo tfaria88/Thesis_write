@@ -14,7 +14,7 @@
 \BOOKMARK [1][-]{section.3.2}{3.2 Create a swimmer in LAMMPS}{chapter.3}% 14
 \BOOKMARK [1][-]{section.3.3}{3.3 Bond Style Harmonic Swimmer}{chapter.3}% 15
 \BOOKMARK [1][-]{section.3.4}{3.4 Bond Style Harmonic Swimmer Extended and Extended K}{chapter.3}% 16
-\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Bond Style Harmonic Swimmer Extended K}{section.3.4}% 17
+\BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 Bond Style Harmonic Swimmer Extended}{section.3.4}% 17
 \BOOKMARK [2][-]{subsection.3.4.2}{3.4.2 Bond Style Harmonic Swimmer Extended K}{section.3.4}% 18
 \BOOKMARK [1][-]{section.3.5}{3.5 SPH Kernel Class}{chapter.3}% 19
 \BOOKMARK [0][-]{chapter.4}{4 Conclusions and Outlook}{}% 20
@@ -23,6 +23,7 @@
 \BOOKMARK [1][-]{section.A.2}{A.2 Addswimmer file and LAMMPS data grid file}{appendix.A}% 23
 \BOOKMARK [1][-]{section.A.3}{A.3 bond\137harmonic\137swimmer code file}{appendix.A}% 24
 \BOOKMARK [1][-]{section.A.4}{A.4 bond\137harmonic\137swimmer\137extended\137k code file}{appendix.A}% 25
-\BOOKMARK [0][-]{appendix*.4}{List of Figures}{}% 26
-\BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 27
-\BOOKMARK [0][-]{appendix*.6}{Declaration}{}% 28
+\BOOKMARK [1][-]{section.A.5}{A.5 sph\137kernel\137quintic\1372d code file}{appendix.A}% 26
+\BOOKMARK [0][-]{appendix*.4}{List of Figures}{}% 27
+\BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 28
+\BOOKMARK [0][-]{appendix*.6}{Declaration}{}% 29
