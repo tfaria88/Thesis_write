@@ -17,52 +17,51 @@ Repeated entry---line 347 of file references.bib
  : @article{williams_new_2010
  :                           ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "monaghan_refined_1985"
 Warning--to sort, need author or key in lammps_manual
 Warning--empty journal in gingold_binary_1978
 Warning--empty journal in ganzenmuller_implementation_2011
 Warning--empty author in lammps_manual
 Warning--empty journal in lammps_manual
 Warning--empty year in lammps_manual
-You've used 32 entries,
+You've used 35 entries,
             2543 wiz_defined-function locations,
-            756 strings with 9190 characters,
-and the built_in function-call counts, 11910 in all, are:
-= -- 1210
-> -- 482
+            773 strings with 9565 characters,
+and the built_in function-call counts, 13176 in all, are:
+= -- 1343
+> -- 545
 < -- 14
-+ -- 160
-- -- 152
-* -- 938
-:= -- 1957
-add.period$ -- 93
-call.type$ -- 32
-change.case$ -- 182
-chr.to.int$ -- 32
-cite$ -- 39
-duplicate$ -- 457
-empty$ -- 897
-format.name$ -- 195
-if$ -- 2366
++ -- 184
+- -- 173
+* -- 1041
+:= -- 2167
+add.period$ -- 102
+call.type$ -- 35
+change.case$ -- 201
+chr.to.int$ -- 35
+cite$ -- 42
+duplicate$ -- 499
+empty$ -- 983
+format.name$ -- 219
+if$ -- 2615
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 34
-newline$ -- 161
-num.names$ -- 93
-pop$ -- 143
+missing$ -- 37
+newline$ -- 176
+num.names$ -- 102
+pop$ -- 153
 preamble$ -- 1
-purify$ -- 216
+purify$ -- 238
 quote$ -- 0
-skip$ -- 373
+skip$ -- 411
 stack$ -- 0
-substring$ -- 812
-swap$ -- 29
+substring$ -- 905
+swap$ -- 32
 text.length$ -- 14
 text.prefix$ -- 13
 top$ -- 0
-type$ -- 244
+type$ -- 268
 warning$ -- 6
-while$ -- 124
-width$ -- 36
-write$ -- 404
+while$ -- 139
+width$ -- 39
+write$ -- 443
 (There was 1 error message)

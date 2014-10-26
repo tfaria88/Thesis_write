@@ -321,7 +321,7 @@ the modification done in \textit{bond$\_$harmonic$\_$swimmer$\_$extended}.
 \section{SPH Kernel Class}
 \label{sec:section 5}
 
-The main point of smooth particle hydronamics lie on the kernel interpolants. In particular, a kernel summation interpolant is used for estimating the density
+The main point of smoothed particle hydronamics lie on the kernel interpolants. In particular, a kernel summation interpolant is used for estimating the density
 which then govern the rest of the basic SPH equations through the variational formalism. The performance of a SPH model depends on the choice of the wiegthing functions. \par
 For any field $F(r)$, a smoothed interpolated version can be defined, $F_{s}(r)$, through a convolution with a kernel $W(r,h)$:
 
@@ -480,7 +480,7 @@ The last kernel function included in LAMMPS the quintic kernel. The weighting fu
 where
 
 \begin{equation}
- \sigma = \frac{0.04195}{h^2} \quad \text{for 2D}
+ \sigma = \frac{0.04195}{h^2} \text{,for 2D} \quad \text{and} \quad \sigma = \frac{0.12585}{h^3} \text{,for 3D}
 \end{equation}
 
 and 
@@ -489,8 +489,75 @@ and
  s = \frac{3r}{h}
 \end{equation}
 
+A new user input coefficient is included for all SPH \textit{pair styles}, which is the kernel function type: lucy, quadric or quintic. One example of the kernel function classes
+that were add in LAMMPS is available in Appendix~\ref{app:kernel function}.
+
+\section{Adami's transport-velocity formulation in LAMMPS}
+\label{sec:section 6}
 
 
+The standard SPH method implemented in LAMMPS suffers from particle clumping and void regions for high Reynolds number flows and when negative pressures occur in the flow.
+As a solution, Adami \cite{adami_transport-velocity_2013} proposed an algorithm that combines the homogenization of the particle configuration by a background pressure while at the same
+time reduces artificial numerical dissipation. In Chapter 1.2 the transport-velocity methodology introuced by Adami is decribed and compared with the standard SPH method.\par
+
+LAMMPS provides data structures for forces, positions and velocities. SPH requires four new per-particle parameters: local density $\rho$ , internal energy $E$ nad their respective
+time derivatives $\dot{\rho}$ and $\dot{E}$. These quatities can be accessed in the data structure \textit{atom$\_$style meso} and it must me used for simulation with the SPH package.
+This atom style also includes a per-particle heat capacity, such that a oer-particle temperature can be calculated. Additionally, this atom style defines an extrapolated velocity,
+which is an extimatationof a velocity consistent with the positions at the time when forces are evaluated. LAMMPS uses a Velocity-Verlet scheme to perform time integration:
+
+\begin{equation}
+v_{i}(t+\frac{1}{2}\delta t) = v_{i}(t) + \frac{\delta t}{2m_{i}} f_{i}(t),
+\end{equation}
+
+and this integration scheme cannot be used with SPH because the velocities lag behind the positions by $\frac{1}{2}\delta t$ when the forces are computed, leading to a poor conservation
+of total mass and energy. This situation can be improved by computing this extrapolated velocity:
+  
+\begin{equation}
+\tilde {v_{i}}(t+\frac{1}{2}\delta t) = v_{i}(t) + \frac{\delta t}{m_{i}} f_{i}(t)
+\end{equation}
+
+The equation of state (EOS) determines pressure as a function of local density $\rho$ and temperature. One of the EOS implemented in LAMMPS-SPH package is Tait's equation of state
+The Tait's EOS formulation is:
+
+  
+\begin{equation}
+P(\rho) = \frac{c_{0}^2 \rho_{0}}{7}\left[\left(\frac{\rho}{\rho_{0}}\right)^7 - 1 \right] , 
+\end{equation}
+
+where $c_{0}$ is the sound speed and $\rho_{0}$ the density at zero applied stress. The user input coefficients for this \textit{pair$\_$style} are $c_{0}$ , $\rho_{0}$ , range of the
+smoothing  kernel $h$ and the strength of the artificial vicosity \textit{alpha} use in the viscous component $\Pi_{ij}$:
+
+\begin{equation}
+\Pi_{ij} = -\alpha h \frac{c_{i}+c_{j}}{\rho_{i}+\rho_{j}} \frac{v_{ij}r_{ij}}{r^2_{ij}+\epsilon h^2}
+\end{equation}
+
+The Tait equation of state can also be combined with Morris expression to estimate the SPH viscous diffusion terms \cite{morris_switch_1997}, instead of artificial viscosity:
+
+\begin{equation}
+\left(\frac{1}{\rho}\nabla  \mu \nabla v \right)_{i} = \sum_{j} \frac{m_{j}(\mu_{i}+\mu_{j})r_{ij}\nabla_{j}W_{ij}}{\rho_{i}\rho_{j}(r^2_{ij}+\epsilon h^2)} v_{ij}
+\end{equation}
+
+Based on this standard formulation, an adaptation of the method used in LAMMPS is necessary to implement the transport velocity formulation.\par
+
+The first step is to adapt the class \textit{atom} and create the class \textit{atom$\_$vec$\_$meso$\_$trans}, which is a modification of the \textit{atom$\_$vec$\_$meso}. The new 
+parameter to be included into the new classes is the background pressure force $f_{b}$. \par
+Now, a new pair style is established for Adami's formulation, \textit{pair$\_$sph$\_$adami}. Here, the background pressure field $p_{b}$, which is essencial for the calculation
+of the transport velocity $\tilde{v}$. The equation below describes the discretized form of the transport velocity of a particle $i$:
+
+\begin{equation}
+\tilde {v_{i}}(t+\frac{1}{2}\delta t) = v_{i}(t) + \delta t \left( \frac{\tilde {d}v_{i}}{dt} - \frac{p_{b}}{m_{i}} \sum_{j} (V^2_{i} + V^2_{j}) \frac {\partial W}{\partial r_{ij}}e_{ij}\right)
+\end{equation}
+
+The last modification is to switch to Adami's viscosity the Morris viscosity, relating it to the transport velocity $\tilde {v_{ij}}$. The new class \textit{pair$\_$sph$\_$adami}
+is available in Appendix~\ref{app:adami}
+
+\subsection{Adami's formulation validation}
+\label{sec:section 1}
+
+To validate the implementation of the transport-velocity methodology for SPH, it was reproduced the simulation over a cylinder ina periodic performed by Adami
+\cite{adami_transport-velocity_2013} to validate his method. The flow is wall-bounded at the upper and lower boundareis with a channel height of $H=4R$, where $R=0.02m$ is the 
+radius of the cylinder.  The cylinder is placed on the centerline of the channel and the total length of the periodic channel segment is $L=0.12m$. The liquid has a density and
+viscosity of 
 
 
 

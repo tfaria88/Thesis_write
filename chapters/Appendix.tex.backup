@@ -11,70 +11,26 @@
 \section{Input file for Shear Cavity Flow simulation}
 \label{app:NURBSVolumenelement}
 
-dimension          2\par
-units              si\par
-atom$\_$style         meso\par
-\par
-$\#$ create simulation box\par
-$\sharp$2D box\par
-region             box block -0.050e-3 1.044e-3 -0.05e-3 1.044e-3 -1.0e-6 1.0e-6 units box\par
-$\sharp$region             box block -0.050e-3 1.044e-3 -0.05e-3 1.044e-3 -0.05e-3 1.044e-3  units box\par
-create$\_$box         3 box\par
-\par
-$\sharp$ create fluid particles\par
-region             fluid block 0.0001e-3 0.999e-3 0.0001e-3 0.999e-3 EDGE EDGE side in units box \par
-lattice            sq 0.025e-3
-create$\_$atoms       1 region fluid
-
-$\sharp$ create bottom, left, and right wall
-region             walls block 0.0001e-3 0.999e-3 0.0001e-3 EDGE EDGE EDGE side out units box 
-lattice            sq2 0.025e-3
-create$\_$atoms       2 region walls
-
-$\sharp$ create a driver strip of particles, which exerts shear forces on the fluid
-region             driver block EDGE EDGE 0.999e-3 EDGE EDGE EDGE side in units box 
-create$\_$atoms       3 region driver
-
-group              fluid type 1 
-group              walls type 2 
-group              driver type 3
-group              integrate$\_$full union fluid driver
-
-mass               3 2.0e-7
-mass               2 2.0e-7
-mass               1 4.0e-7
-set                group all meso$\_$rho 1000.0
-
-$\sharp$ use Tait's EOS in combination with Morris' laminar viscosity.
-$\sharp$ We set rho$\_$0 = $1000 kg/m^3$, c = 0.1 m/s, h = 6.5e-5 m.
-$\sharp$ The dynamic viscosity is set to 1.0e-3 Pa s, corresponding to a kinematic viscosity of $1.0e-6 m^2/s$
-pair$\_$style         hybrid sph/taitwater/morris
-pair$\_$coeff         * *    sph/taitwater/morris 1000 0.1 1.0e-3 6.5e-5
-pair$\_$coeff         2 3    none $\sharp$ exclude interaction between walls and shear driver
-
-compute            rho$\_$peratom all meso$\_$rho/atom
-compute            e$\_$peratom all meso$\_$e/atom
-compute            ke$\_$peratom all ke/atom
-compute            esph all reduce sum c$\_$e$\_$peratom
-compute            ke all ke
-variable           etot equal c$\_$ke+c$\_$esph
-
-$\sharp$ assign a constant velocity to shear driver
-velocity           driver set 0.001 0.0 0.0 units box
-fix                freeze$\_$fix driver setforce 0.0 0.0 0.0
-
-$\sharp$ do full time integration for shear driver and fluid, but keep walls stationary
-fix                integrate$\_$fix$\_$full integrate$\_$full meso
-fix                integrate$\_$fix$\_$stationary walls meso/stationary
+\lstinputlisting{cavity.c}
 
 
-dump               dump$\_$id all custom 10000 dump$\ast$.dat id type xs ys zs vx vy c$\_$rho$\_$peratom c$\_$e$\_$peratom c$\_$ke$\_$peratom
-dump$\_$modify        dump$\_$id first yes
-dump$\_$modify        dump$\_$id sort id
-thermo             100
-thermo$\_$style       custom step c$\_$esph v$\_$etot
-thermo$\_$modify      norm no
+\section{Addswimmer file and LAMMPS data grid file}
+\label{app:addswimmer}
 
-neighbor           3.0e-6 bin
-timestep           5.0e-5
-run                400000
+\lstinputlisting{addswimmer.c}
+\lstinputlisting{datagrid.c}
+
+\section{\textit{bond$\_$harmonic$\_$swimmer} code file}
+\label{app:bond harmonic swimmer}
+
+\lstinputlisting{bond_harmonic_swimmer.c}
+
+\section{\textit{bond$\_$harmonic$\_$swimmer$\_$extended$\_$k} code file}
+\label{app:bond harmonic swimmer ext k}
+
+\lstinputlisting{bond_harmonic_swimmer_extended_k.c}
+
+\section{\textit{sph$\_$kernel$\_$quintic$\_$2d} code file}
+\label{app:kernel function}
+
+\lstinputlisting{sph_kernel_quintic_2d.c}

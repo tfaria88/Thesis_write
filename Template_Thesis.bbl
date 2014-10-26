@@ -1,6 +1,11 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
 \begin{thebibliography}{GSVLL11}
 
+\bibitem[AHA13]{adami_transport-velocity_2013}
+S.~Adami, X.~Y. Hu, and N.~A. Adams.
+\newblock A transport-velocity formulation for smoothed particle hydrodynamics.
+\newblock {\em Journal of Computational Physics}, 241:292--307, May 2013.
+
 \bibitem[BA73]{berg_bacteria_1973}
 Howard~C. Berg and Robert~A. Anderson.
 \newblock Bacteria swim by rotating their flagellar filaments.
@@ -119,6 +124,17 @@ Matthew~J McHenry.
 \newblock The morphology, behavior, and biomechanics of swimming in ascidian
   larvae.
 \newblock {\em Canadian Journal of Zoology}, 83(1):62--74, January 2005.
+
+\bibitem[ML85]{monaghan_refined_1985}
+J.~J. Monaghan and J.~C. Lattanzio.
+\newblock A refined particle method for astrophysical problems.
+\newblock {\em Astronomy and Astrophysics}, 149:135--143, August 1985.
+
+\bibitem[MM97]{morris_switch_1997}
+J.~P. Morris and J.~J. Monaghan.
+\newblock A switch to reduce {SPH} viscosity.
+\newblock {\em Journal of Computational Physics}, 136(1):41--50, September
+  1997.
 
 \bibitem[Mon05]{monaghan_smoothed_2005}
 J~J Monaghan.
