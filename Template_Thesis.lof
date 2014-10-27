@@ -8,11 +8,10 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Initial swimmer structure configuration (upper) and modified final swimmer structure (lower)}}{7}{figure.2.5}
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Swimmer deformed into a wave format with compressed head}}{7}{figure.2.6}
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Structure of the swimmer describing the internal bonds (red), the swimmer surface bonds (black) and the head flesh particles and bonds(blue)}}{8}{figure.2.7}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces inprogress}}{8}{figure.2.8}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces (a) Simulation snapshot of the shear driven fluid filled cavity. Particles are colored according to their kinetic energy. (b) Set of particles located in the cavity centerline used to calculate the velocity profile.}}{9}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Velocity profile along centerline of the cavity with SPH and FDM solutions from \cite {neece_tait_1968} , (b) Simulation results for velocity profile along centerline }}{10}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces inprogress}}{11}{figure.3.3}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces (a) Velocity profile along centerline of the cavity with SPH and FDM (Finite Difference Method) solutions from \cite {neece_tait_1968} , (b) Simulation results for velocity profile along centerline }}{10}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Swimmer structure bending with bonds compression and tension}}{11}{figure.3.3}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Bonds in upper line under tension while bonds in lower line under compression and vice versa}}{12}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces }}{13}{figure.3.5}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Body shape and tail length of larvae of \textit {Herdmania pallida} and \textit {Aplidium constellatum}\cite {mchenry_morphology_2005}}}{14}{figure.3.6}
@@ -22,8 +21,20 @@
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Gaussian kernel plotted with $R=\frac {|r-r'|}{h}$ and Gaussian distribution in particle domain}}{18}{figure.3.10}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces B-spline function plotted compared to Gaussian distribution}}{19}{figure.3.11}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Quintic function plotted compared to Gaussian distribution}}{19}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces }}{22}{figure.3.13}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces }}{23}{figure.3.14}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces On the left side, the velocity profiles $V_{x}(y)$ at $x = L/2$ (Path 1) and $x=L$ (Path 2) from Adami \cite {adami_transport-velocity_2013} and on the right side, the same velocity profiles for LAMMPS simulation}}{22}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Scaled contour plots of velocity magnitude from Adami results and velocity magnitude field from LAMMPS}}{23}{figure.3.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Configuration files}}{24}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces In upper image the particles are allocated in the domain via square lattice distribution and in the lower image the particles rearranged their position after heating up with the Langevin thermostat}}{26}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces }}{27}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces }}{28}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces }}{28}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Swimmer velocity in x-direction}}{29}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Force in x-direction in th swimmer center of mass}}{29}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Swimmer center of mass path}}{30}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A/2$ }}{30}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A/2$}}{31}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Swimmer center of mass path for amplitudes $A$, $2A$ and $A/2$}}{31}{figure.4.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

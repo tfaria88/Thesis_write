@@ -20,14 +20,19 @@
 \contentsline {section}{\numberline {3.5}SPH Kernel Class}{17}{section.3.5}
 \contentsline {section}{\numberline {3.6}Adami's transport-velocity formulation in LAMMPS}{21}{section.3.6}
 \contentsline {subsection}{\numberline {3.6.1}Adami's formulation validation}{22}{subsection.3.6.1}
-\contentsline {chapter}{\numberline {4}Conclusions and Outlook}{24}{chapter.4}
-\contentsline {chapter}{\numberline {A}Appendix}{25}{appendix.A}
-\contentsline {section}{\numberline {A.1}Input file for Shear Cavity Flow simulation}{25}{section.A.1}
-\contentsline {section}{\numberline {A.2}Addswimmer file and LAMMPS data grid file}{26}{section.A.2}
-\contentsline {section}{\numberline {A.3}\textit {bond$\_$harmonic$\_$swimmer} code file}{32}{section.A.3}
-\contentsline {section}{\numberline {A.4}\textit {bond$\_$harmonic$\_$swimmer$\_$extended$\_$k} code file}{37}{section.A.4}
-\contentsline {section}{\numberline {A.5}\textit {sph$\_$kernel$\_$quintic$\_$2d} code file}{42}{section.A.5}
-\contentsline {section}{\numberline {A.6}\textit {pair$\_$sph$\_$adami} code file}{43}{section.A.6}
-\contentsline {chapter}{List of Figures}{49}{appendix*.4}
-\contentsline {chapter}{\nonumberline Bibliography}{50}{appendix*.5}
-\contentsline {chapter}{\nonumberline Declaration}{52}{appendix*.6}
+\contentsline {chapter}{\numberline {4}Results}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Configuration files}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fluid domain}{25}{section.4.2}
+\contentsline {section}{\numberline {4.3}Swimmer with constant amplitude}{27}{section.4.3}
+\contentsline {section}{\numberline {4.4}Swimmer with increasing amplitude along tail}{31}{section.4.4}
+\contentsline {chapter}{\numberline {5}Conclusions and Outlook}{32}{chapter.5}
+\contentsline {chapter}{\numberline {A}Appendix}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}Input file for Shear Cavity Flow simulation}{33}{section.A.1}
+\contentsline {section}{\numberline {A.2}Addswimmer file and LAMMPS data grid file}{34}{section.A.2}
+\contentsline {section}{\numberline {A.3}\textit {bond$\_$harmonic$\_$swimmer} code file}{40}{section.A.3}
+\contentsline {section}{\numberline {A.4}\textit {bond$\_$harmonic$\_$swimmer$\_$extended$\_$k} code file}{45}{section.A.4}
+\contentsline {section}{\numberline {A.5}\textit {sph$\_$kernel$\_$quintic$\_$2d} code file}{50}{section.A.5}
+\contentsline {section}{\numberline {A.6}\textit {pair$\_$sph$\_$adami} code file}{51}{section.A.6}
+\contentsline {chapter}{List of Figures}{58}{appendix*.4}
+\contentsline {chapter}{\nonumberline Bibliography}{59}{appendix*.5}
+\contentsline {chapter}{\nonumberline Declaration}{61}{appendix*.6}

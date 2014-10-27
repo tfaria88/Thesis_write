@@ -8,6 +8,7 @@ A level-1 auxiliary file: chapters/Acknowledgments.aux
 A level-1 auxiliary file: chapters/Introduction.aux
 A level-1 auxiliary file: chapters/Chapter_2.aux
 A level-1 auxiliary file: chapters/Chapter_3.aux
+A level-1 auxiliary file: chapters/Chapter_4.aux
 A level-1 auxiliary file: chapters/Conclusions.aux
 A level-1 auxiliary file: chapters/Appendix.aux
 The style file: alpha.bst
@@ -23,45 +24,45 @@ Warning--empty journal in ganzenmuller_implementation_2011
 Warning--empty author in lammps_manual
 Warning--empty journal in lammps_manual
 Warning--empty year in lammps_manual
-You've used 35 entries,
+You've used 36 entries,
             2543 wiz_defined-function locations,
-            773 strings with 9565 characters,
-and the built_in function-call counts, 13176 in all, are:
-= -- 1343
-> -- 545
+            780 strings with 9776 characters,
+and the built_in function-call counts, 13610 in all, are:
+= -- 1389
+> -- 564
 < -- 14
-+ -- 184
-- -- 173
-* -- 1041
-:= -- 2167
-add.period$ -- 102
-call.type$ -- 35
-change.case$ -- 201
-chr.to.int$ -- 35
-cite$ -- 42
-duplicate$ -- 499
-empty$ -- 983
-format.name$ -- 219
-if$ -- 2615
++ -- 190
+- -- 179
+* -- 1078
+:= -- 2237
+add.period$ -- 105
+call.type$ -- 36
+change.case$ -- 207
+chr.to.int$ -- 36
+cite$ -- 43
+duplicate$ -- 513
+empty$ -- 1015
+format.name$ -- 226
+if$ -- 2702
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 37
-newline$ -- 176
-num.names$ -- 102
-pop$ -- 153
+missing$ -- 38
+newline$ -- 181
+num.names$ -- 105
+pop$ -- 156
 preamble$ -- 1
-purify$ -- 238
+purify$ -- 245
 quote$ -- 0
-skip$ -- 411
+skip$ -- 424
 stack$ -- 0
-substring$ -- 905
-swap$ -- 32
+substring$ -- 943
+swap$ -- 33
 text.length$ -- 14
 text.prefix$ -- 13
 top$ -- 0
-type$ -- 268
+type$ -- 276
 warning$ -- 6
-while$ -- 139
-width$ -- 39
-write$ -- 443
+while$ -- 144
+width$ -- 40
+write$ -- 456
 (There was 1 error message)
