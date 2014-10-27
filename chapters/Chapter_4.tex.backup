@@ -160,7 +160,7 @@ Figure~\ref{fig:Bild4.4} display the velocity vector field around the swimmer, s
 \centering
   \begin{footnotesize}
   \includesvg{images/c_a_c_k_part}
-  \caption[]{Velocity vector field}
+  \caption[Velocity vector field]{Velocity vector field nearby the swimmer}
   \label{fig:Bild4.4}
   \end{footnotesize}
 \end{figure} 
@@ -171,7 +171,7 @@ Figure~\ref{fig:Bild4.4} display the velocity vector field around the swimmer, s
 \centering
   \begin{footnotesize}
   \includesvg{images/ca_ck_id}
-  \caption[]{Particles distribution in the domain colored by particles ID's}
+  \caption[Particles distribution in the domain colored by particles ID's]{Particles distribution in the domain colored by particles ID's}
    \label{fig:Bild4.5}
   \end{footnotesize}
 \end{figure} 
@@ -219,14 +219,16 @@ Further simulations were performed to analyze the influence of the wave amplitud
 ($2A$) and  half value of the initial amplitude ($A$). The following graphs compare the results for velocity in x-direction (Figure~\ref{fig:Bild4.9}),, force in x-direction
 (Figure~\ref{fig:Bild4.10}) and the swimmer path in time(Figure~\ref{fig:Bild4.11}). \par
 As higher is the wave amplitude, the swimmer velocity will be also higher but does not increase directly proportional. Similarly, the forces in the center of mass are also increasing
-as the wave amplitude is increased. Examining the plots for the swimmer path, it is intriguing the direction in which the 
+as the wave amplitude is increased. Examining the plots for the swimmer path, it is intriguing the swimming direction for those amplitudes. With an amplitude of $2A$ the swimmer
+tends to turn downwards, differently to the amplitude $A$ which also tends to turn but in the opposite direction. The turning pattern of amplitude $2A$ and $A/2$ are similar, 
+creating no relations between the amplitude value increase and the turning path.
 
 
 \begin{figure}[H]
 \centering
   \begin{footnotesize}
   \includesvg{images/c_amp_comp}
-  \caption[]{}
+  \caption[Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A/2$ ]{Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A/2$ }
    \label{fig:Bild4.9}
   \end{footnotesize}
 \end{figure} 
@@ -235,7 +237,7 @@ as the wave amplitude is increased. Examining the plots for the swimmer path, it
 \centering
   \begin{footnotesize}
   \includesvg{images/c_amp_comp_fx}
-  \caption[]{}
+  \caption[Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A/2$]{Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A/2$}
    \label{fig:Bild4.10}
   \end{footnotesize}
 \end{figure} 
@@ -244,29 +246,91 @@ as the wave amplitude is increased. Examining the plots for the swimmer path, it
 \centering
   \begin{footnotesize}
   \includesvg{images/c_amp_comp_xcm}
-  \caption[]{}
+  \caption[Swimmer center of mass path for amplitudes $A$, $2A$ and $A/2$]{Swimmer center of mass path for amplitudes $A$, $2A$ and $A/2$}
    \label{fig:Bild4.11}
   \end{footnotesize}
 \end{figure}
 
 
 \section{Swimmer with increasing amplitude along tail}
-\label{sec:section }
+\label{sec:section 4}
+
+The SPH parameters used in the previous simulation remain the same. The difference is now the linear relation that defines the wave amplitude values, increasing along the swimmer
+from head to tail. Amplitude now is divided in two parameters: the initial standard wave amplitude value $A_{alpha}$ and the slope parameter for the linear relation $A_{beta}$.
+With these relations, the amplitude value near the head is $A$ and the amplitude in the end of the tail active line is equal to $2A$. Figure~\ref{fig:Bild4.12} display the velocity
+vector field around the swimmer, showing the vortices created along the swimmer and on the tail tip. For this swimmer, the velocity vectors have higher values when compared to the
+constant amplitude simulation.
+ 
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/e_a_vec}
+  \caption[Velocity vector field nearby the swimmer]{Velocity vector field nearby the swimmer}
+   \label{fig:Bild4.12}
+  \end{footnotesize}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/e_a_comp}
+  \caption[Compare swimmer motion with constant $A$ along the swimmer and linearly increasing $A$ along the swimmer]{Compare swimmer motion with constant $A$ along the swimmer and linearly increasing $A$ along the swimmer}
+   \label{fig:Bild4.13}
+  \end{footnotesize}
+\end{figure}
+
+
+The graphs below plot the swimmer velocity in x-direction(Figure~\ref{fig:Bild4.6}), the force-x in the center of mass (Figure~\ref{fig:Bild4.7}) and the path of the swimmer center
+of mass, with all graphs comparing with previous results:
 
 
 
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/e_a_vx}
+  \caption[Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A+$ ]{Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A+$ }
+   \label{fig:Bild4.14}
+  \end{footnotesize}
+\end{figure}
 
 
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/e_a_fx}
+  \caption[Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A+$]{Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A+$}
+   \label{fig:Bild4.15}
+  \end{footnotesize}
+\end{figure}
 
 
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/e_a_xcm}
+  \caption[Swimmer center of mass path for $A$, $2A$ and $A+$]{Swimmer center of mass path for $A$, $2A$ and $A+$}
+   \label{fig:Bild4.16}
+  \end{footnotesize}
+\end{figure}
 
 
+The swimmer path for this model differs from the swimmers with constant wave amplitude beating pattern. The swimmer tends to swim in a straight line, slightly curving in time, while
+the swimmer with constant amplitude curves sharply with time. The model presented here brings a better prediction of the swimmer path as it does not curve.
 
 
+\section{Swimmer depending on stiffness $K$}
+\label{sec:section 5}
 
 
-
-
-
-
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/c_k_vx}
+  \caption[]{}
+   \label{fig:Bild4.17}
+  \end{footnotesize}
+\end{figure}
 

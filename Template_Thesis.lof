@@ -27,14 +27,22 @@
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Configuration files}}{24}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces In upper image the particles are allocated in the domain via square lattice distribution and in the lower image the particles rearranged their position after heating up with the Langevin thermostat}}{26}{figure.4.2}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces }}{27}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces }}{28}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces }}{28}{figure.4.5}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Velocity vector field}}{28}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Particles distribution in the domain colored by particles ID's}}{28}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Swimmer velocity in x-direction}}{29}{figure.4.6}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Force in x-direction in th swimmer center of mass}}{29}{figure.4.7}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Swimmer center of mass path}}{30}{figure.4.8}
 \contentsline {figure}{\numberline {4.9}{\ignorespaces Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A/2$ }}{30}{figure.4.9}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A/2$}}{31}{figure.4.10}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Swimmer center of mass path for amplitudes $A$, $2A$ and $A/2$}}{31}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Velocity vector field nearby the swimmer}}{32}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Compare swimmer motion with constant $A$ along the swimmer and linearly increasing $A$ along the swimmer}}{32}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A+$ }}{33}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A+$}}{33}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Swimmer center of mass path for $A$, $2A$ and $A+$}}{34}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces }}{34}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces }}{35}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces }}{35}{figure.4.19}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

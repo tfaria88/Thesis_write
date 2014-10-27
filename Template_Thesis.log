@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.27)  27 OCT 2014 07:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.8.27)  27 OCT 2014 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,6 +968,12 @@ LaTeX Warning: Label `sec:section 2' multiply defined.
 
 LaTeX Warning: Label `sec:section 3' multiply defined.
 
+
+LaTeX Warning: Label `sec:section 4' multiply defined.
+
+
+LaTeX Warning: Label `sec:section 5' multiply defined.
+
 ) (./chapters/Conclusions.aux) (./chapters/Appendix.aux)
 (./chapters/Declaration.aux))
 \openout1 = `Template_Thesis.aux'.
@@ -1106,7 +1112,7 @@ Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 \flrow@LT@prelastfoot=\box70
 \c@FBLTpage=\count172
 )
-<frontcover/cover.pdf, id=152, 597.50829pt x 845.0471pt>
+<frontcover/cover.pdf, id=156, 597.50829pt x 845.0471pt>
 File: frontcover/cover.pdf Graphic file (type pdf)
 
 <use frontcover/cover.pdf>
@@ -1117,7 +1123,7 @@ File: frontcover/cover.pdf Graphic file (type pdf)
 Package pdftex.def Info: frontcover/cover.pdf used on input line 28.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
-<frontcover/cover.pdf, id=155, page=1, 597.50829pt x 845.0471pt>
+<frontcover/cover.pdf, id=159, page=1, 597.50829pt x 845.0471pt>
 File: frontcover/cover.pdf Graphic file (type pdf)
 
 <use frontcover/cover.pdf, page 1>
@@ -1251,7 +1257,7 @@ runsystem(inkscape -z -C --file=images/bild-micro.svg --export-pdf=images/bild-
 micro.pdf --export-latex)...disabled (restricted).
 
 (./images/bild-micro.pdf_tex
-<images/bild-micro.pdf, id=304, 867.24pt x 621.52202pt>
+<images/bild-micro.pdf, id=309, 867.24pt x 621.52202pt>
 File: images/bild-micro.pdf Graphic file (type pdf)
 
 <use images/bild-micro.pdf>
@@ -1262,21 +1268,21 @@ Package pdftex.def Info: images/bild-micro.pdf used on input line 52.
 
 
 ] (./images/snakes_taylor.pdf_tex
-<images/snakes_taylor.pdf, id=326, 363.75899pt x 738.76pt>
+<images/snakes_taylor.pdf, id=332, 363.75899pt x 738.76pt>
 File: images/snakes_taylor.pdf Graphic file (type pdf)
 
 <use images/snakes_taylor.pdf>
 Package pdftex.def Info: images/snakes_taylor.pdf used on input line 52.
 (pdftex.def)             Requested size: 301.125pt x 611.55865pt.
 ) [4 <./images/bild-micro.pdf>] [5 <./images/snakes_taylor.pdf>] <images/swimme
-r-struc.png, id=357, 1045.9075pt x 363.3575pt>
+r-struc.png, id=362, 1045.9075pt x 363.3575pt>
 File: images/swimmer-struc.png Graphic file (type png)
 
 <use images/swimmer-struc.png>
 Package pdftex.def Info: images/swimmer-struc.png used on input line 117.
 (pdftex.def)             Requested size: 261.47623pt x 90.83914pt.
 
-<images/bead-spring.png, id=359, 1204.5pt x 390.45876pt>
+<images/bead-spring.png, id=364, 1204.5pt x 390.45876pt>
 File: images/bead-spring.png Graphic file (type png)
 
 <use images/bead-spring.png>
@@ -1284,7 +1290,7 @@ Package pdftex.def Info: images/bead-spring.png used on input line 132.
 (pdftex.def)             Requested size: 180.6672pt x 58.56628pt.
  [6 <./images/swimmer-struc.png> <./images/bead-spring.png>] (./images/swimmer-
 compare-final.pdf_tex
-<images/swimmer-compare-final.pdf, id=376, 637.58202pt x 442.45299pt>
+<images/swimmer-compare-final.pdf, id=381, 637.58202pt x 442.45299pt>
 File: images/swimmer-compare-final.pdf Graphic file (type pdf)
 
 <use images/swimmer-compare-final.pdf>
@@ -1292,7 +1298,7 @@ Package pdftex.def Info: images/swimmer-compare-final.pdf used on input line 52
 .
 (pdftex.def)             Requested size: 301.125pt x 208.97237pt.
 ) (./images/swimmer-moving.pdf_tex
-<images/swimmer-moving.pdf, id=377, 872.86098pt x 319.594pt>
+<images/swimmer-moving.pdf, id=382, 872.86098pt x 319.594pt>
 File: images/swimmer-moving.pdf Graphic file (type pdf)
 
 <use images/swimmer-moving.pdf>
@@ -1302,7 +1308,7 @@ Package pdftex.def Info: images/swimmer-moving.pdf used on input line 52.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images/swimmer-moving.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
->] <images/swimmer-compare.png, id=397, 1063.975pt x 311.1625pt>
+>] <images/swimmer-compare.png, id=402, 1063.975pt x 311.1625pt>
 File: images/swimmer-compare.png Graphic file (type png)
 
 <use images/swimmer-compare.png>
@@ -1315,14 +1321,14 @@ Package pdftex.def Info: images/swimmer-compare.png used on input line 188.
 (./chapters/Chapter_3.tex
 Chapter 3.
 (./images/cavity_simu.pdf_tex
-<images/cavity_simu.pdf, id=411, 791.13965pt x 393.86166pt>
+<images/cavity_simu.pdf, id=416, 791.13965pt x 393.86166pt>
 File: images/cavity_simu.pdf Graphic file (type pdf)
 
 <use images/cavity_simu.pdf>
 Package pdftex.def Info: images/cavity_simu.pdf used on input line 52.
 (pdftex.def)             Requested size: 301.125pt x 149.90936pt.
 ) (./images/cavity_graphics.pdf_tex
-<images/cavity_graphics.pdf, id=412, 841.94444pt x 316.2677pt>
+<images/cavity_graphics.pdf, id=417, 841.94444pt x 316.2677pt>
 File: images/cavity_graphics.pdf Graphic file (type pdf)
 
 <use images/cavity_graphics.pdf>
@@ -1339,7 +1345,7 @@ runsystem(inkscape -z -C --file=images/bending.svg --export-pdf=images/bending.
 pdf --export-latex)...disabled (restricted).
 
  (./images/bending.pdf_tex
-<images/bending.pdf, id=447, 1418.09805pt x 206.371pt>
+<images/bending.pdf, id=452, 1418.09805pt x 206.371pt>
 File: images/bending.pdf Graphic file (type pdf)
 
 <use images/bending.pdf>
@@ -1347,7 +1353,7 @@ Package pdftex.def Info: images/bending.pdf used on input line 52.
 (pdftex.def)             Requested size: 351.3125pt x 51.12343pt.
 ) [11 <./images/bending.pdf>]
 (./images/bond-mov.pdf_tex
-<images/bond-mov.pdf, id=464, 1236.62pt x 344.48701pt>
+<images/bond-mov.pdf, id=470, 1236.62pt x 344.48701pt>
 File: images/bond-mov.pdf Graphic file (type pdf)
 
 <use images/bond-mov.pdf>
@@ -1358,7 +1364,7 @@ runsystem(inkscape -z -C --file=images/snake_swim.svg --export-pdf=images/snake
 _swim.pdf --export-latex)...disabled (restricted).
 
  (./images/snake_swim.pdf_tex
-<images/snake_swim.pdf, id=469, 814.24202pt x 383.834pt>
+<images/snake_swim.pdf, id=475, 814.24202pt x 383.834pt>
 File: images/snake_swim.pdf Graphic file (type pdf)
 
 <use images/snake_swim.pdf>
@@ -1366,14 +1372,14 @@ Package pdftex.def Info: images/snake_swim.pdf used on input line 52.
 (pdftex.def)             Requested size: 301.125pt x 141.95192pt.
 ) [12 <./images/bond-mov.pdf>] [13 <./images/snake_swim.pdf>] (./images/cross_s
 ec1.pdf_tex
-<images/cross_sec1.pdf, id=503, 979.66pt x 769.27402pt>
+<images/cross_sec1.pdf, id=508, 979.66pt x 769.27402pt>
 File: images/cross_sec1.pdf Graphic file (type pdf)
 
 <use images/cross_sec1.pdf>
 Package pdftex.def Info: images/cross_sec1.pdf used on input line 52.
 (pdftex.def)             Requested size: 301.125pt x 236.4535pt.
 ) (./images/cross_sec2.pdf_tex
-<images/cross_sec2.pdf, id=507, 754.01701pt x 707.443pt>
+<images/cross_sec2.pdf, id=512, 754.01701pt x 707.443pt>
 File: images/cross_sec2.pdf Graphic file (type pdf)
 
 <use images/cross_sec2.pdf>
@@ -1385,7 +1391,7 @@ stiff.pdf --export-latex)...disabled (restricted).
 
 
 (./images/body_stiff.pdf_tex
-<images/body_stiff.pdf, id=522, 453.695pt x 306.746pt>
+<images/body_stiff.pdf, id=527, 453.695pt x 306.746pt>
 File: images/body_stiff.pdf Graphic file (type pdf)
 
 <use images/body_stiff.pdf>
@@ -1393,19 +1399,19 @@ Package pdftex.def Info: images/body_stiff.pdf used on input line 52.
 (pdftex.def)             Requested size: 301.125pt x 203.59505pt.
 ) [15 <./images/cross_sec2.pdf>] [16 <./images/body_stiff.pdf>] (./images/kerne
 l.pdf_tex
-<images/kernel.pdf, id=547, 788.54597pt x 696.20097pt>
+<images/kernel.pdf, id=552, 788.54597pt x 696.20097pt>
 File: images/kernel.pdf Graphic file (type pdf)
  <use images/kernel.pdf>
 Package pdftex.def Info: images/kernel.pdf used on input line 52.
 (pdftex.def)             Requested size: 150.5625pt x 132.92757pt.
 ) [17 <./images/kernel.pdf>] (./images/gauss.pdf_tex
-<images/gauss.pdf, id=565, 845.55902pt x 303.534pt>
+<images/gauss.pdf, id=570, 845.55902pt x 303.534pt>
 File: images/gauss.pdf Graphic file (type pdf)
  <use images/gauss.pdf>
 Package pdftex.def Info: images/gauss.pdf used on input line 52.
 (pdftex.def)             Requested size: 361.34999pt x 129.7158pt.
 )
-(./images/cubic.pdf_tex <images/cubic.pdf, id=568, 994.917pt x 663.27798pt>
+(./images/cubic.pdf_tex <images/cubic.pdf, id=573, 994.917pt x 663.27798pt>
 File: images/cubic.pdf Graphic file (type pdf)
 
 <use images/cubic.pdf>
@@ -1424,7 +1430,7 @@ m/n/10.95 20\OML/lmm/m/it/10.95 ^^Y\OT1/lmr/m/n/10.95 ]$
 runsystem(inkscape -z -C --file=images/quintic.svg --export-pdf=images/quintic.
 pdf --export-latex)...disabled (restricted).
 
-(./images/quintic.pdf_tex <images/quintic.pdf, id=586, 1008.568pt x 766.865pt>
+(./images/quintic.pdf_tex <images/quintic.pdf, id=591, 1008.568pt x 766.865pt>
 File: images/quintic.pdf Graphic file (type pdf)
 
 <use images/quintic.pdf>
@@ -1439,7 +1445,7 @@ runsystem(inkscape -z -C --file=images/cyl_graph.svg --export-pdf=images/cyl_gr
 aph.pdf --export-latex)...disabled (restricted).
 
  (./images/cyl_graph.pdf_tex
-<images/cyl_graph.pdf, id=631, 809.42403pt x 305.14pt>
+<images/cyl_graph.pdf, id=636, 809.42403pt x 305.14pt>
 File: images/cyl_graph.pdf Graphic file (type pdf)
 
 <use images/cyl_graph.pdf>
@@ -1451,7 +1457,7 @@ Overfull \hbox (26.55588pt too wide) in paragraph at lines 53--573
  []
 
 (./images/cylinder.pdf_tex
-<images/cylinder.pdf, id=634, 745.18402pt x 354.12299pt>
+<images/cylinder.pdf, id=639, 745.18402pt x 354.12299pt>
 File: images/cylinder.pdf Graphic file (type pdf)
 
 <use images/cylinder.pdf>
@@ -1466,7 +1472,7 @@ runsystem(inkscape -z -C --file=images/config.svg --export-pdf=images/config.pd
 f --export-latex)...disabled (restricted).
 
 (./images/config.pdf_tex
-<images/config.pdf, id=659, 701.01903pt x 460.11899pt>
+<images/config.pdf, id=664, 701.01903pt x 460.11899pt>
 File: images/config.pdf Graphic file (type pdf)
  <use images/config.pdf>
 Package pdftex.def Info: images/config.pdf used on input line 52.
@@ -1494,7 +1500,7 @@ swimmer.parameters\T1/lmr/m/n/10.95 ,
 LaTeX Warning: Reference `' on page 26 undefined on input line 102.
 
 (./images/langevin.pdf_tex
-<images/langevin.pdf, id=679, 745.18402pt x 395.076pt>
+<images/langevin.pdf, id=684, 745.18402pt x 395.076pt>
 File: images/langevin.pdf Graphic file (type pdf)
 
 <use images/langevin.pdf>
@@ -1509,7 +1515,7 @@ Overfull \hbox (46.63089pt too wide) in paragraph at lines 53--111
 LaTeX Warning: Reference `' on page 26 undefined on input line 119.
 
 (./images/box_graph.pdf_tex
-<images/box_graph.pdf, id=680, 513.92pt x 308.352pt>
+<images/box_graph.pdf, id=685, 513.92pt x 308.352pt>
 File: images/box_graph.pdf Graphic file (type pdf)
 
 <use images/box_graph.pdf>
@@ -1521,14 +1527,14 @@ _c_k_part.pdf --export-latex)...disabled (restricted).
 
 
 (./images/c_a_c_k_part.pdf_tex
-<images/c_a_c_k_part.pdf, id=694, 880.89098pt x 529.98pt>
+<images/c_a_c_k_part.pdf, id=699, 880.89098pt x 529.98pt>
 File: images/c_a_c_k_part.pdf Graphic file (type pdf)
 
 <use images/c_a_c_k_part.pdf>
 Package pdftex.def Info: images/c_a_c_k_part.pdf used on input line 52.
 (pdftex.def)             Requested size: 401.5pt x 241.56178pt.
 ) [27 <./images/box_graph.pdf>]
-(./images/ca_ck_id.pdf_tex <images/ca_ck_id.pdf, id=706, 746.79pt x 200.75pt>
+(./images/ca_ck_id.pdf_tex <images/ca_ck_id.pdf, id=711, 746.79pt x 200.75pt>
 File: images/ca_ck_id.pdf Graphic file (type pdf)
 
 <use images/ca_ck_id.pdf>
@@ -1539,7 +1545,7 @@ runsystem(inkscape -z -C --file=images/vel_c_a_c_k.svg --export-pdf=images/vel_
 c_a_c_k.pdf --export-latex)...disabled (restricted).
 
  (./images/vel_c_a_c_k.pdf_tex
-<images/vel_c_a_c_k.pdf, id=710, 513.92pt x 308.352pt>
+<images/vel_c_a_c_k.pdf, id=715, 513.92pt x 308.352pt>
 File: images/vel_c_a_c_k.pdf Graphic file (type pdf)
 
 <use images/vel_c_a_c_k.pdf>
@@ -1550,14 +1556,14 @@ Package pdftex.def Info: images/vel_c_a_c_k.pdf used on input line 52.
 pdfTeX warning: /usr/bin/pdflatex (file ./images/ca_ck_id.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >] (./images/fcm_ca_ck.pdf_tex
-<images/fcm_ca_ck.pdf, id=725, 513.92pt x 308.352pt>
+<images/fcm_ca_ck.pdf, id=731, 513.92pt x 308.352pt>
 File: images/fcm_ca_ck.pdf Graphic file (type pdf)
 
 <use images/fcm_ca_ck.pdf>
 Package pdftex.def Info: images/fcm_ca_ck.pdf used on input line 52.
 (pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
 ) (./images/xcm_ca_ck.pdf_tex
-<images/xcm_ca_ck.pdf, id=728, 513.92pt x 308.352pt>
+<images/xcm_ca_ck.pdf, id=734, 513.92pt x 308.352pt>
 File: images/xcm_ca_ck.pdf Graphic file (type pdf)
 
 <use images/xcm_ca_ck.pdf>
@@ -1572,14 +1578,14 @@ runsystem(inkscape -z -C --file=images/c_amp_comp.svg --export-pdf=images/c_amp
 _comp.pdf --export-latex)...disabled (restricted).
 
  (./images/c_amp_comp.pdf_tex
-<images/c_amp_comp.pdf, id=745, 513.92pt x 308.352pt>
+<images/c_amp_comp.pdf, id=750, 513.92pt x 308.352pt>
 File: images/c_amp_comp.pdf Graphic file (type pdf)
 
 <use images/c_amp_comp.pdf>
 Package pdftex.def Info: images/c_amp_comp.pdf used on input line 52.
 (pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
 ) (./images/c_amp_comp_fx.pdf_tex
-<images/c_amp_comp_fx.pdf, id=746, 513.92pt x 308.352pt>
+<images/c_amp_comp_fx.pdf, id=751, 513.92pt x 308.352pt>
 File: images/c_amp_comp_fx.pdf Graphic file (type pdf)
 
 <use images/c_amp_comp_fx.pdf>
@@ -1594,22 +1600,122 @@ runsystem(inkscape -z -C --file=images/c_amp_comp_xcm.svg --export-pdf=images/c
 _amp_comp_xcm.pdf --export-latex)...disabled (restricted).
 
  (./images/c_amp_comp_xcm.pdf_tex
-<images/c_amp_comp_xcm.pdf, id=761, 513.92pt x 308.352pt>
+<images/c_amp_comp_xcm.pdf, id=766, 513.92pt x 308.352pt>
 File: images/c_amp_comp_xcm.pdf Graphic file (type pdf)
 
 <use images/c_amp_comp_xcm.pdf>
 Package pdftex.def Info: images/c_amp_comp_xcm.pdf used on input line 52.
 (pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
-)) [31 <./images/c_amp_comp_fx.pdf> <./images/c_amp_comp_xcm.pdf
+)
+runsystem(inkscape -z -C --file=images/e_a_vec.svg --export-pdf=images/e_a_vec.
+pdf --export-latex)...disabled (restricted).
+
+ (./images/e_a_vec.pdf_tex
+<images/e_a_vec.pdf, id=768, 773.28903pt x 221.628pt>
+File: images/e_a_vec.pdf Graphic file (type pdf)
+ <use images/e_a_vec.pdf>
+Package pdftex.def Info: images/e_a_vec.pdf used on input line 52.
+(pdftex.def)             Requested size: 451.6875pt x 129.45403pt.
+) [31 <./images/c_amp_comp_fx.pdf> <./images/c_amp_comp_xcm.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images/c_amp_comp_xcm.pdf): PDF inclu
 sion: multiple pdfs with page group included in a single page
+>]
+runsystem(inkscape -z -C --file=images/e_a_comp.svg --export-pdf=images/e_a_com
+p.pdf --export-latex)...disabled (restricted).
+
+ (./images/e_a_comp.pdf_tex
+<images/e_a_comp.pdf, id=782, 692.98903pt x 467.34601pt>
+File: images/e_a_comp.pdf Graphic file (type pdf)
+
+<use images/e_a_comp.pdf>
+Package pdftex.def Info: images/e_a_comp.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 236.92421pt.
+) (./images/e_a_vx.pdf_tex
+<images/e_a_vx.pdf, id=785, 513.92pt x 308.352pt>
+File: images/e_a_vx.pdf Graphic file (type pdf)
+ <use images/e_a_vx.pdf>
+Package pdftex.def Info: images/e_a_vx.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
+)
+[32 <./images/e_a_vec.pdf> <./images/e_a_comp.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/e_a_comp.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>]
+runsystem(inkscape -z -C --file=images/e_a_fx.svg --export-pdf=images/e_a_fx.pd
+f --export-latex)...disabled (restricted).
+
+ (./images/e_a_fx.pdf_tex <images/e_a_fx.pdf, id=802, 513.92pt x 308.352pt>
+File: images/e_a_fx.pdf Graphic file (type pdf)
+
+<use images/e_a_fx.pdf>
+Package pdftex.def Info: images/e_a_fx.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
+) (./images/e_a_xcm.pdf_tex
+<images/e_a_xcm.pdf, id=803, 513.92pt x 308.352pt>
+File: images/e_a_xcm.pdf Graphic file (type pdf)
+ <use images/e_a_xcm.pdf>
+Package pdftex.def Info: images/e_a_xcm.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
+)
+[33 <./images/e_a_vx.pdf> <./images/e_a_fx.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/e_a_fx.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+LaTeX Font Info:    External font `cmex7' loaded for size
+(Font)              <7> on input line 324.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 324.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 324.
+
+runsystem(inkscape -z -C --file=images/c_k_vx.svg --export-pdf=images/c_k_vx.pd
+f --export-latex)...disabled (restricted).
+
+(./images/c_k_vx.pdf_tex <images/c_k_vx.pdf, id=817, 553.26701pt x 308.352pt>
+File: images/c_k_vx.pdf Graphic file (type pdf)
+
+<use images/c_k_vx.pdf>
+Package pdftex.def Info: images/c_k_vx.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 195.80133pt.
+) (./images/c_k_fx.pdf_tex
+<images/c_k_fx.pdf, id=818, 513.92pt x 308.352pt>
+File: images/c_k_fx.pdf Graphic file (type pdf)
+ <use images/c_k_fx.pdf>
+Package pdftex.def Info: images/c_k_fx.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
+)
+[34 <./images/e_a_xcm.pdf> <./images/c_k_vx.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/c_k_vx.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+>]
+runsystem(inkscape -z -C --file=images/c_k_xcm.svg --export-pdf=images/c_k_xcm.
+pdf --export-latex)...disabled (restricted).
+
+ (./images/c_k_xcm.pdf_tex
+<images/c_k_xcm.pdf, id=833, 513.92pt x 308.352pt>
+File: images/c_k_xcm.pdf Graphic file (type pdf)
+ <use images/c_k_xcm.pdf>
+Package pdftex.def Info: images/c_k_xcm.pdf used on input line 52.
+(pdftex.def)             Requested size: 351.3125pt x 210.79167pt.
+))
+[35 <./images/c_k_fx.pdf> <./images/c_k_xcm.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images/c_k_xcm.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
 >]
 \openout2 = `chapters/Conclusions.aux'.
 
  (./chapters/Conclusions.tex
 Chapter 5.
-) [32
+) [36
 
 
 
@@ -1636,7 +1742,7 @@ Package xcolor Warning: Incompatible color definition on input line 14.
 (./cavity.c
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 5.
- [33
+ [37
 
 
 
@@ -1650,7 +1756,7 @@ Package xcolor Warning: Incompatible color definition on input line 20.
 
 Package xcolor Warning: Incompatible color definition on input line 20.
 
-(./addswimmer.c [34] [35] [36] [37] [38])
+(./addswimmer.c [38] [39] [40] [41] [42])
 
 Package xcolor Warning: Incompatible color definition on input line 21.
 
@@ -1660,10 +1766,7 @@ Package xcolor Warning: Incompatible color definition on input line 21.
 
 Package xcolor Warning: Incompatible color definition on input line 21.
 
-(./datagrid.c [39])
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 23.
-
+(./datagrid.c [43])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 23.
@@ -1689,7 +1792,7 @@ Package xcolor Warning: Incompatible color definition on input line 26.
 
 Package xcolor Warning: Incompatible color definition on input line 26.
 
-(./bond_harmonic_swimmer.c [40] [41] [42] [43] [44])
+(./bond_harmonic_swimmer.c [44] [45] [46] [47] [48])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 28.
@@ -1731,7 +1834,7 @@ Package xcolor Warning: Incompatible color definition on input line 31.
 
 Package xcolor Warning: Incompatible color definition on input line 31.
 
-(./bond_harmonic_swimmer_extended_k.c [45] [46] [47] [48] [49])
+(./bond_harmonic_swimmer_extended_k.c [49] [50] [51] [52] [53])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 33.
@@ -1765,7 +1868,7 @@ Package xcolor Warning: Incompatible color definition on input line 36.
 
 Package xcolor Warning: Incompatible color definition on input line 36.
 
-(./sph_kernel_quintic_2d.c [50])
+(./sph_kernel_quintic_2d.c [54])
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 38.
@@ -1791,8 +1894,8 @@ Package xcolor Warning: Incompatible color definition on input line 41.
 
 Package xcolor Warning: Incompatible color definition on input line 41.
 
-(./pair_sph_adami.c [51] [52] [53] [54] [55])) [56] (./Template_Thesis.lof
-[57
+(./pair_sph_adami.c [55] [56] [57] [58] [59])) [60] (./Template_Thesis.lof
+[61
 
 
 
@@ -1801,13 +1904,13 @@ Package xcolor Warning: Incompatible color definition on input line 41.
 \tf@lof=\write6
 \openout6 = `Template_Thesis.lof'.
 
- (./Template_Thesis.bbl [58] [59
+ (./Template_Thesis.bbl [62] [63
 
-]) [60]
+]) [64]
 \openout2 = `chapters/Declaration.aux'.
 
  (./chapters/Declaration.tex)
-[61
+[65
 
 
 ]
@@ -1822,7 +1925,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 57.
 Package rerunfilecheck Info: File `Template_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9E6159EABD6B1C0AA706321A342D37A6;2718.
+(rerunfilecheck)             Checksum: 87CD1FE7B4E79AC8490265813CA21BBB;2801.
 
 
 LaTeX Warning: There were undefined references.
@@ -1832,10 +1935,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 18083 strings out of 493304
- 275919 string characters out of 6139871
+ 18184 strings out of 493304
+ 278015 string characters out of 6139871
  653504 words of memory out of 5000000
- 19367 multiletter control sequences out of 15000+600000
+ 19431 multiletter control sequences out of 15000+600000
  106625 words of font info for 121 fonts, out of 8000000 for 9000
  959 hyphenation exceptions out of 8191
  47i,18n,67p,828b,1916s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1845,19 +1948,20 @@ hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/publi
-c/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10
-.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
-/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmtt9.pfb></usr/share/texmf/fonts/type1/public/lm/lmtti10.pfb>
-Output written on Template_Thesis.pdf (67 pages, 4597100 bytes).
+b></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmtk10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb></usr/sh
+are/texmf/fonts/type1/public/lm/lmtti10.pfb>
+Output written on Template_Thesis.pdf (71 pages, 5191742 bytes).
 PDF statistics:
- 2788 PDF objects out of 2984 (max. 8388607)
- 2584 compressed objects within 26 object streams
- 1620 named destinations out of 1728 (max. 500000)
- 477 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2876 PDF objects out of 2984 (max. 8388607)
+ 2648 compressed objects within 27 object streams
+ 1633 named destinations out of 1728 (max. 500000)
+ 525 words of extra memory for PDF output out of 10000 (max. 10000000)
 
