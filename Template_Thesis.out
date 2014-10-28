@@ -25,9 +25,9 @@
 \BOOKMARK [1][-]{section.4.3}{4.3 Swimmer with constant amplitude}{chapter.4}% 25
 \BOOKMARK [1][-]{section.4.4}{4.4 Swimmer with increasing amplitude along tail}{chapter.4}% 26
 \BOOKMARK [1][-]{section.4.5}{4.5 Swimmer depending on stiffness K}{chapter.4}% 27
-\BOOKMARK [1][-]{section.4.6}{4.6 Reynolds}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.6}{4.6 Reynolds Number}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.7}{4.7 Swimmer efficiency}{chapter.4}% 29
-\BOOKMARK [0][-]{chapter.5}{5 Conclusions and Outlook}{}% 30
+\BOOKMARK [0][-]{chapter.5}{5 Conclusions}{}% 30
 \BOOKMARK [0][-]{appendix.A}{A Appendix}{}% 31
 \BOOKMARK [1][-]{section.A.1}{A.1 Input file for Shear Cavity Flow simulation}{appendix.A}% 32
 \BOOKMARK [1][-]{section.A.2}{A.2 Addswimmer file and LAMMPS data grid file}{appendix.A}% 33
@@ -37,4 +37,3 @@
 \BOOKMARK [1][-]{section.A.6}{A.6 pair\137sph\137adami code file}{appendix.A}% 37
 \BOOKMARK [0][-]{appendix*.4}{List of Figures}{}% 38
 \BOOKMARK [0][-]{appendix*.5}{Bibliography}{}% 39
-\BOOKMARK [0][-]{appendix*.6}{Declaration}{}% 40

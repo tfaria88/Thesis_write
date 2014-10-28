@@ -12,7 +12,6 @@ A level-1 auxiliary file: chapters/Chapter_4.aux
 A level-1 auxiliary file: chapters/Conclusions.aux
 A level-1 auxiliary file: chapters/Appendix.aux
 The style file: alpha.bst
-A level-1 auxiliary file: chapters/Declaration.aux
 Database file #1: references.bib
 Repeated entry---line 347 of file references.bib
  : @article{williams_new_2010
@@ -26,7 +25,7 @@ Warning--empty journal in lammps_manual
 Warning--empty year in lammps_manual
 You've used 36 entries,
             2543 wiz_defined-function locations,
-            780 strings with 9776 characters,
+            779 strings with 9752 characters,
 and the built_in function-call counts, 13610 in all, are:
 = -- 1389
 > -- 564

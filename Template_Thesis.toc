@@ -1,6 +1,6 @@
 \select@language {english}
-\contentsline {chapter}{\nonumberline Summary}{III}{chapter*.1}
-\contentsline {chapter}{\nonumberline Acknowledgments}{IV}{chapter*.2}
+\contentsline {chapter}{\nonumberline Summary}{II}{chapter*.1}
+\contentsline {chapter}{\nonumberline Acknowledgments}{III}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Smoothed Particle Hydronamics}{1}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}SPH Formulation}{1}{subsection.1.1.1}
@@ -25,10 +25,10 @@
 \contentsline {section}{\numberline {4.2}Fluid domain}{25}{section.4.2}
 \contentsline {section}{\numberline {4.3}Swimmer with constant amplitude}{27}{section.4.3}
 \contentsline {section}{\numberline {4.4}Swimmer with increasing amplitude along tail}{31}{section.4.4}
-\contentsline {section}{\numberline {4.5}Swimmer depending on stiffness $K$}{35}{section.4.5}
-\contentsline {section}{\numberline {4.6}Reynolds}{38}{section.4.6}
-\contentsline {section}{\numberline {4.7}Swimmer efficiency}{44}{section.4.7}
-\contentsline {chapter}{\numberline {5}Conclusions and Outlook}{45}{chapter.5}
+\contentsline {section}{\numberline {4.5}Swimmer depending on stiffness $K$}{34}{section.4.5}
+\contentsline {section}{\numberline {4.6}Reynolds Number}{38}{section.4.6}
+\contentsline {section}{\numberline {4.7}Swimmer efficiency}{42}{section.4.7}
+\contentsline {chapter}{\numberline {5}Conclusions}{45}{chapter.5}
 \contentsline {chapter}{\numberline {A}Appendix}{46}{appendix.A}
 \contentsline {section}{\numberline {A.1}Input file for Shear Cavity Flow simulation}{46}{section.A.1}
 \contentsline {section}{\numberline {A.2}Addswimmer file and LAMMPS data grid file}{47}{section.A.2}
@@ -36,6 +36,5 @@
 \contentsline {section}{\numberline {A.4}\textit {bond$\_$harmonic$\_$swimmer$\_$extended$\_$k} code file}{58}{section.A.4}
 \contentsline {section}{\numberline {A.5}\textit {sph$\_$kernel$\_$quintic$\_$2d} code file}{63}{section.A.5}
 \contentsline {section}{\numberline {A.6}\textit {pair$\_$sph$\_$adami} code file}{64}{section.A.6}
-\contentsline {chapter}{List of Figures}{71}{appendix*.4}
-\contentsline {chapter}{\nonumberline Bibliography}{72}{appendix*.5}
-\contentsline {chapter}{\nonumberline Declaration}{74}{appendix*.6}
+\contentsline {chapter}{List of Figures}{72}{appendix*.4}
+\contentsline {chapter}{\nonumberline Bibliography}{73}{appendix*.5}

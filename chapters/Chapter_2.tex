@@ -16,13 +16,13 @@
 
 Biomechanical principles give the basis for understanding how a swimming body propels itself through a fluid\cite{mchenry_morphology_2005}, as a swimmer can be defined as
 an organism or object that moves by deforming its body in a periodic way. For example, an \textit{ascidian larva} creates
-\cite{sawada_biology_2001} tail ondulation by the action of its muscles while swimming. This motion generates hydrodynamic forces and torques on the surface of the body that result in a rate and direction
+\cite{sawada_biology_2001} tail undulation by the action of its muscles while swimming. This motion generates hydrodynamic forces and torques on the surface of the body that result in a rate and direction
 of motion that are determined by body mass and its spatial distribution. A model accurately incorporating these components should successfully predict the direction, rate, and 
 energetic cost of swimming.\par
-Swimming bodies can be found in many different environments in the nature. The physics governing swimming in micrometer scale is other fromthe physics of swimming at the macroscopic
+Swimming bodies can be found in many different environments in the nature. The physics governing swimming in micrometer scale is other from the physics of swimming at the macroscopic
 scale. The microorganisms are in the region of low Reynolds number, where inertia has a little effect and viscous damping is predominant. The Reynolds number is defined as:
 
-\begin{equation} 
+\begin{equation}\label{re} 
   Re = \frac {\rho UL}{\eta}
 \end{equation}
 
@@ -30,7 +30,7 @@ where $\rho$ is the fluid density, $\eta$ is the viscosity and $L$ and $U$ are c
 
 Swimming strategies applied by large animals that run at high Reynolds number, such as fish, snakes, birds or insects(\cite{childress_mechanics_1981},\cite{vogel_life_1996},
 \cite{digest_natures}) are not effective at small scales. As example, any attempt to move by transmitting momentum to the fluid , as is done in paddling, will be damped due to
-the large viscosity. Hence, microorganisms have developed propulsion strategies that sucessfully overcome drag.
+the large viscosity. Hence, microorganisms have developed propulsion strategies that successfully overcome drag.
 
 
 
@@ -76,7 +76,7 @@ are mostly understood. For this study, the swimming of snakes are more relevant 
 The swimming behavior of snakes was studied by Taylor \cite{taylor_analysis_1952}, based on photographs taken by Professor James Gray. In Figure~\ref{fig:Bild2.2}, a snake \textit{Natrix} swimming in water is shown in
 frames. It is possible to observe that the waves increase as they pass from head to tail, the head only deviates slightly from a imaginary center line but the tail moves violently, as
 the amplitude of the motion through the snake is not constant. The results also concluded that the swimming efficiency ( which was measured as the relation between the backward
-velocity of the waves relative to the mean position of the snake $U$ and the velocity with which these waves drive in fowards $V$) is therefore rather larger than that predicted
+velocity of the waves relative to the mean position of the snake $U$ and the velocity with which these waves drive in forwards $V$) is therefore rather larger than that predicted
 assuming a wave of constant amplitude.\par
 
 In many of macroscopic swimmers, the waves of displacement increase in amplitude as they pass from head to tail and it is concluded by Taylor study that such animals swim more
@@ -99,8 +99,8 @@ efficiently, but the flexible cylinder theory adopted in this study is not so ac
 The mechanics of swimmers is a complex problem\cite{tytell_interactions_2010}. The bodies of swimmers are elastic structures that deform in reaction to fluid forces but also affect the fluid around the swimmers.
 In recent years, there were much progress in understanding the fluid motion around swimming bodies\cite{shadwick_fish_2006}, along with the nonlinear properties of muscle\cite{williams_new_2010} and the elastic behavior of 
 swimmers bodies\cite{williams_new_2010}. Most of the studies performed with swimmers examined body mechanics separately from fluid mechanics, not including the coupled
-fluid-structure interaction problem swimmers. Some Computational Fluid Dynamics (CFD) models have included some fluid-structure interaction, coupling center-of-mass motion to 
-fluid dynamic forces with precribed body kinematics(\cite{kern_simulations_2006},\cite{borazjani_role_2010}).
+fluid-structure interaction problem for swimmers. Some Computational Fluid Dynamics (CFD) models have included some fluid-structure interaction, coupling center-of-mass motion to 
+fluid dynamic forces with prescribed body kinematics(\cite{kern_simulations_2006},\cite{borazjani_role_2010}).
 
 \par
 
@@ -122,7 +122,7 @@ and it particles has the same mass properties as the active tail, but this fragm
 
 
 In this model, the swimmer consists on particles which are connected by bonds and are arranged in a filamentous structure. These particle-bonds connections have a bead-spring 
-structure (Figure~\ref{fig:Bild2.4}). Initially, all particles in the tail ( active and passive fragments) has the same mass $m$. The bond length $l_{b}$ between neighboring
+structure (Figure~\ref{fig:Bild2.4}). Initially, all particles in the tail ( active and passive fragments) have the same mass $m$. The bond length $l_{b}$ between neighboring
 particles and the distance between the parallel filaments are identical. The filament length and the distance between filaments is described by harmonic bond potentials between
 the two beads (spring constant K).\par
 
@@ -136,11 +136,11 @@ the two beads (spring constant K).\par
 \end{figure} 
 
 For the simulations, the swimmer has a total number of 100 particles, where three of those forms the swimmer head. Initially, it was used a square form for the head due to
-simplifications, and after validating the method to create swimmers in LAMMPS, the swimmer was implemented with it final configuration which it is shown in Figure~\ref{fig:Bild2.5}.
+simplifications, and after validating the method to create swimmers in LAMMPS, the swimmer was implemented with its final configuration shown in Figure~\ref{fig:Bild2.5}.
 In the final configuration the head has not a square format but an octagonal format which comes closer to the a circular/elliptical desired format.\par 
-When the body starts to swim, the head takes a new format due to its mass properties. The fluid compress the head flesh turning it into a even more soft format getting closer to an 
+When the body starts to swim, the head takes a new format due to its mass properties. The fluid compress the head flesh turning it into an even more soft format getting closer to an 
 ellipse and avoiding high corner angles(Figure~\ref{fig:Bild4}). It is also possible to observe in the sketch that the internal bonds get a new format when the swimmer starts to
-deform into a wave format. This new format of the internal bonds gives a better mobility to the swimmer and avoid these bonds to break with deformation.  \par
+deform into a wave format. This new format of the internal bonds gives a better mobility to the swimmer and avoids these bonds to break with deformation.  \par
 
 \begin{figure}[ht]
 \centering
@@ -160,7 +160,7 @@ deform into a wave format. This new format of the internal bonds gives a better 
   \end{footnotesize}
 \end{figure} 
 
-The harmonic bonds used to create the connections between the swimmer particles are applied in different ways thru the swimmer.Bonds are defined between specified pairs of 
+The harmonic bonds used to create the connections between the swimmer particles are applied in different ways through the swimmer.Bonds are defined between specified pairs of 
 atoms and remain in force for the duration of the simulation (unless the bond breaks which is possible in some bond potentials). The harmonic bond style uses the potential:
 
 
@@ -168,17 +168,17 @@ atoms and remain in force for the duration of the simulation (unless the bond br
   E = K ( r - r_{0})^2
 \end{equation}
 
-where $r_{0}$ is the equilibrium bond distance and $K$ is the bond stiffness constant. Note that the usual $1/2$ factor is included in $K$.
+where $r_{0}$ is the equilibrium bond distance and $K$ is the bond stiffness constant. Note that the usual $1/2$ factor is included in $K$ 
 
-The internal bonds of the swimmer, that means the bonds which connects the upper and lower lines of the structure, have the aim to represent the swimmer backbones, so its 
-physiological properties are different, and to represent it, the stiffness of those bonds are higher then the others in the swimmer borders. The passive bonds present in the 
-rear of the tail are also harmonic and their lengths $l_{b}$ are constant. The active tail is formed by two lines of atoms connected by bonds, an upper and a lower line. Those
-lines have a different bond type compared with the rest of the swimmer, as they are called active, the bond length is not constant in time. Changing the bond length it generates
-a local spontaneous curvature. A sinusoidal variation of the bond length as a function of the contour length and time then generates the sinusoidal propagating wave of the active
+The internal bonds of the swimmer, that means, the bonds which connect the upper and lower lines of the structure, have the aim to represent the swimmer backbones.These bonds have
+different physiological properties, and to represent it, the stiffness of those bonds are higher then the others in the swimmer borders. The passive bonds present in the 
+rear of the tail are also harmonic and their lengths $l_{b}$ are constant. The active tail is formed by two lines of atoms connected by bonds, an upper and a lower line, and as
+they have a different bond type compared with the rest of the swimmer, the bond length is not constant in time. Changing the bond length it generates
+a local spontaneous curvature. A sinusoidal variation of the bond length as a function of the contour length and time generates the sinusoidal propagating wave of the active
 lines. This approach is the most common in literature models, to prescribe the swimmer motion.\par
 
-In Figure~\ref{fig:Bild2.7}, the red lines show the internal bonds with a higher stiffness relative with the rest of the swimmer, the blue points connected by the blue line show the 
-head flesh which has an smaller mass and gets deformed as it swimms.\par
+In Figure~\ref{fig:Bild2.7}, the red lines show the internal bonds with a higher stiffness relative with the rest of the swimmer. The blue points connected by the blue line, show the 
+head flesh which has an smaller mass and gets deformed as it swims.\par
 Many changes were applied in LAMMPS code as it was not ready to create specifically swimmers. Those changes are shown in the Chapter 3.
 
 

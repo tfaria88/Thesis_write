@@ -26,7 +26,7 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Configuration files}}{24}{figure.4.1}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces In upper image the particles are allocated in the domain via square lattice distribution and in the lower image the particles rearranged their position after heating up with the Langevin thermostat}}{26}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces }}{27}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Swimmer velocity in x-direction for a small and a large box}}{27}{figure.4.3}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Velocity vector field}}{28}{figure.4.4}
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Particles distribution in the domain colored by particles ID's}}{28}{figure.4.5}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Swimmer velocity in x-direction}}{29}{figure.4.6}
@@ -36,30 +36,28 @@
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A/2$}}{31}{figure.4.10}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Swimmer center of mass path for amplitudes $A$, $2A$ and $A/2$}}{31}{figure.4.11}
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Velocity vector field nearby the swimmer}}{32}{figure.4.12}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Compare swimmer motion with constant $A$ along the swimmer and linearly increasing $A$ along the swimmer}}{32}{figure.4.13}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Comparison of swimmer motion with constant $A$ along the swimmer and linearly increasing $A$ along the swimmer}}{32}{figure.4.13}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces Swimmer velocity in x-direction for amplitudes $A$, $2A$ and $A+$ }}{33}{figure.4.14}
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Force in x-direction in th swimmer center of mass for amplitudes $A$, $2A$ and $A+$}}{33}{figure.4.15}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Swimmer center of mass path for $A$, $2A$ and $A+$}}{34}{figure.4.16}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces }}{35}{figure.4.17}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces }}{36}{figure.4.18}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces }}{36}{figure.4.19}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces }}{37}{figure.4.20}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces }}{37}{figure.4.21}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces }}{38}{figure.4.22}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces }}{38}{figure.4.23}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces }}{39}{figure.4.24}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces }}{39}{figure.4.25}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces }}{40}{figure.4.26}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces }}{40}{figure.4.27}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces }}{41}{figure.4.28}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces }}{41}{figure.4.29}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces }}{42}{figure.4.30}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces }}{42}{figure.4.31}
-\contentsline {figure}{\numberline {4.32}{\ignorespaces }}{43}{figure.4.32}
-\contentsline {figure}{\numberline {4.33}{\ignorespaces }}{43}{figure.4.33}
-\contentsline {figure}{\numberline {4.34}{\ignorespaces }}{43}{figure.4.34}
-\contentsline {figure}{\numberline {4.35}{\ignorespaces }}{44}{figure.4.35}
-\contentsline {figure}{\numberline {4.36}{\ignorespaces }}{44}{figure.4.36}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Swimmer velocity in x-direction for amplitudes $K$, $2K$ and $K/2$ }}{36}{figure.4.18}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Force in x-direction in th swimmer center of mass for amplitudes $K$, $2K$ and $K/2$}}{36}{figure.4.19}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Swimmer center of mass path for body stiffness $K$, $2K$, $K/2$ and $3K$}}{37}{figure.4.20}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Swimmer velocity in x-direction for configurations $const\_A\_const\_A$, $A+$ and $K+$ }}{37}{figure.4.21}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Force in x-direction in th swimmer center of mass for configurations $const\_A\_const\_K$ and $K+$}}{38}{figure.4.22}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Swimmer center of mass path for configurations$const\_A\_const\_K$, $A+$ and $K+$}}{38}{figure.4.23}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Swimmer velocity in x-direction for configurations $Re=1$, $Re=10$ and $Re=100$ (config. "Constant $A$ and Constant $K$") }}{39}{figure.4.24}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces In left graphic, swimmer center of mass path for $Re=1$, $Re=10$ and $Re=100$. In right graphic, a zoomed plot to observe the behavior for $Re=1$ (config. "Constant $A$ and Constant $K$")}}{39}{figure.4.25}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Swimmer velocity in x-direction for configurations $Re=1$, $Re=10$ and $Re=100$ (config. "Ranging $A+$ and Constant $K$")}}{40}{figure.4.26}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces In left graphic, swimmer center of mass path for $Re=1$, $Re=10$ and $Re=100$. In right graphic, a zoomed plot to observe the behavior for $Re=1$ (config. "Ranging $A+$ and Constant $K$")}}{40}{figure.4.27}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Swimmer velocity in x-direction for configurations $Re=1$, $Re=10$ and $Re=100$ (config. "Constant $A$ and Ranging $K+$")}}{41}{figure.4.28}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces In left graphic, swimmer center of mass path for $Re=1$, $Re=10$ and $Re=100$. In right graphic, a zoomed plot to observe the behavior for $Re=1$ (config. "Constant $A$ and Ranging $K+$")}}{41}{figure.4.29}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Velocity flow field for a swimmer with constant amplitude and stiffness along the body with $Re=10$}}{42}{figure.4.30}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Velocity flow field for a swimmer with constant amplitude and stiffness along the body with $Re=100$}}{42}{figure.4.31}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Swimmer power in time for a swimmer with constant stiffness and amplitudes}}{43}{figure.4.32}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces In the left side, plot of cumulative power in time for swimmers with different amplitude parameters. In the right side, plot of cumulative power in the time for swimmers with different body stiffness parameters}}{43}{figure.4.33}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Plot comparing the cumulative power in time for different swimmers configurations}}{43}{figure.4.34}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

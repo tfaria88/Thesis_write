@@ -15,10 +15,9 @@
 Smoothed particle hydrodynamics (SPH) is a fully Lagrangian and mesh-free method that was proposed in 1977 independently by Lucy \cite{lucy_numerical_1977} and 
 Monaghan \cite{gingold_smoothed_1977}. SPH is a method for obtaining approximate numerical solutions of the equations of fluid dynamics by replacing the fluid with a set of 
 particles \cite{monaghan_smoothed_2005}. For the mathematician, the particles are just interpolation points from which properties of the fluid
-can be calculated. For the physicist, the SPH particles are material particles which can be treatedlike any other particle system. Either way, the method has a number of attractive 
+can be calculated. For the physicist, the SPH particles are material particles which can be treated like any other particle system. Either way, the method has a number of attractive 
 features. The first of these is that pure advection is treated exactly. For example, if the particles are given a colour, and the velocity is specified, the transport of colour by 
-the particle system is exact. Modern finite difference methods give reasonable results for advection but the algorithms are not Galilean invariant so that, when a large constant 
-velocity is superposed, the results can be badly corrupted. The second advantage is that with more than one material, each described by its own set of particles, interface problems 
+the particle system is exact.  The second advantage is that with more than one material, each described by its own set of particles, interface problems 
 are often trivial for SPH but difficult for finite difference schemes. The third advantage is that particle methods bridge the gap between the continuum and fragmentation in a 
 natural way.\par
 

@@ -19,8 +19,8 @@ an add-on module in LAMMPS that includes the SPH module into the code.\par
 
 First, it was necessary to perform a validation case to have a better understanding of the code usage and to ensure the SPH-package works successfully. The case was taken from 
 the SPH-USER Documentation from LAMMPS documentation\cite{ganzenmuller_implementation_2011}. This simulation consists on a shear cavity flow, which is a standard test for a laminar
-flow profile. It was considered a 2D square lattice of fluid particles with the top edge moving at a constant speed at a constant speed of $10^-3m/s$. The other three edges are kept
-stationary. The driven driven fluid inside is represented by Tait's equation of state \cite{neece_tait_1968} with Morris' laminar flow viscosity. and the kinematic viscosity used is
+flow profile. It was considered a 2D square lattice of fluid particles with the top edge moving at a constant speed of $10^-3m/s$. The other three edges are kept
+stationary. The driven fluid inside is represented by Tait's equation of state \cite{neece_tait_1968} with Morris' laminar flow viscosity. The kinematic viscosity used is
 $\nu=10^-6m^2/s$. A steady-state flow is reached after some thousand cycles and it is shown in Figure~\ref{fig:Bild3.1}(a). A centerline in the cavity was taken to select some particles
 to analyze their velocities (Figure~\ref{fig:Bild3.1}(b)). The velocity profile along the vertical centerline of the cavity 
 agrees pretty well qualitatively with a Finite Difference solution and the results achieved in the SPH-USER documentation (Figure~\ref{fig:Bild3.2}). The input script is in ~\ref{app:NURBSVolumenelement}.
@@ -52,7 +52,7 @@ agrees pretty well qualitatively with a Finite Difference solution and the resul
 \label{sec:section 2}
 
 LAMMPS is ready to create particles and bonds between particles, but there is no specific routine to create swimmers. The desired swimmer structure is described in Figure~\ref{fig:Bild2.7}
-and to create this design it is not so straightforward. A new routine was created as an input file to introduce swimmers in the simulation according to the necessary input parameters
+and to create this design it is not straightforward. A new routine was created as an input file to introduce swimmers in the simulation according to the necessary input parameters
 required by the code. This input file was called \textit{"addswimmer"} and wrote in AWK programming language as it is very convenient for easily writing data files. It has 
 the capability of adding one or more swimmers in any position inside the simulation box.\par
 
@@ -89,7 +89,7 @@ The \textit{harmonic/shift} bond style is a shifted version of the harmonic bond
   E = \frac{U_{min}}{( r_{0} - r_{c})^2} [( r - r_{0})^2 -( r_{c} - r_{0})^2]
 \end{equation}
 
-where $r_{c}$ in the bond critical distance and $U_{min}$ is the potential energy. At $r_{0}$ the potential is $-U_{min}$ and at $r_{c}$ it is zero. The spring constatnt $K$
+where $r_{c}$ in the bond critical distance and $U_{min}$ is the potential energy. At $r_{0}$ the potential is $-U_{min}$ and at $r_{c}$ it is zero. The spring constant $K$
 here is:
 
 \begin{equation} 
@@ -101,14 +101,14 @@ style is not exactly the kind of bond necessary to describe the desired swimmer 
 time.\par
 
 A new approach was considered and called as \textit{bond harmonic swimmer}. In this new bond style, the already existing \textit{harmonic/shift} bond style is adapted for the creation of
-swimmer dynamics. As our swimmer is constructed by a two parallel particles filaments present in the active tail section, the swimming strategy adopted is to change this constant
-equilibrium distance in the bonds for an oscillating equilibrium distance in the bonds. On this way, it is possible to change the tail pattern in time and with a prescribed  motion
+swimmer dynamics. As our swimmer is constructed by two parallel particles filaments present in the active tail section, the swimming strategy adopted is to change this constant
+equilibrium distance in the bonds for an oscillating equilibrium distance. On this way, it is possible to change the tail pattern in time and with a prescribed  motion
 it will swim. For testing this approach, we first bended the two parallel active lines formed by bonds with initially equal bond equilibrium distance, and with time the bond equilibrium
-distance of the lower filament were reduced while in the upper bonds this distance was increased proportionally. Like this, the structure was bended and deflected as it is shown in 
+distance of the lower filament was reduced while in the upper bonds this distance was increased proportionally. Like this, the structure was bended and deflected as it is shown in 
 in Figure~\ref{fig:Bild3.3}.\par
 In \cite{long_muscles_1998}, a conceptual model used for undulatory swimmers is presented. The muscles on the tail of an eel may use elastic energy to power bending and stiffen the 
 body simultaneously. When the tail muscles are active, the muscles begin to contract, which keeps the springs engaged in order to release the strain energy. This causes a traveling
-mechanical wave thru the swimmer. The concept used in harmonic swimmer bond style is similar to this one.
+mechanical wave through the swimmer. The concept used in harmonic swimmer bond style is similar to this one.
 
 
 \begin{figure}[H]
@@ -131,7 +131,7 @@ is not constant anymore and has a sinusoidal variation of the bond length:
 
 where $A$ is the wave amplitude, $\omega$ is the angular frequency, $x$ is the position in x-direction, $\phi$ is the wave phase, $V$ is the wave velocity and $t$ the time.\par
 In \textit{bond harmonic/shift} the variable $r_{0}$ is an user input parameter defined in the function \textit{bond$\_$coeff}. In the new bond class, additional user input parameters are 
-necessary. The input of $r_{0}$ now is the initial equilibrium distance, where in time this value will added with the sinusoidal function shown in equation~\ref{r0} making $r_{0}$
+necessary. The input of $r_{0}$ now is the initial equilibrium distance, where in time, this value will be added with the sinusoidal function shown in equation~\ref{r0} making $r_{0}$
 not constant in time anymore. The new user input parameters are pontential energy $U_{min}$, bond critical distance $r_{c}$, wave amplitude $A$, $\omega$ angular frequency,
 the wave phase $\phi$, the wave velocity $V$ and the two particle ID's that forms the bond (the ID's are automatically subtracted during the swimmer creation and added in a function
 that outputs the \textit{bond$\_$coeff} of all bonds).\par
@@ -157,10 +157,10 @@ The code file for the class \textit{bond$\_$harmonic$\_$swimmer} is available in
 \subsection{Bond Style Harmonic Swimmer Extended }
 \label{sec:section 1}
 
-In chapter 2.2 it is discussed the behavior of swimmers in nature. When the tail beating pattern of many swimmers , microscopic and macroscopics, was photographically studied
+In chapter 2.2, it is discussed the behavior of swimmers in nature. When the tail beating pattern of many swimmers , microscopic and macroscopic, was photographically studied
 by many authors, it was possible to observe that it is very often that the wave amplitude during swimming it is not constant through the tail. In general, this wave amplitude increases
-as it pass through the tail in direction from head to tail tip. One example is the swimming pattern of the snake \textit{Natrix} exhibited in Figure~\ref{fig:Bild2.2}, in the presented set
-of photographs it can be seen the amplitude difference near the head and the amplitude in the swimmer tail tip. In \cite{taylor_analysis_1952}, this not constant wave amplitude
+as it pass through the tail in direction from head to tail tip. One example is the swimming pattern of the snake \textit{Natrix} exhibited in Figure~\ref{fig:Bild2.2}. In the presented set
+of photographs, it can be observed the amplitude difference near the head and the amplitude in the swimmer tail tip. In \cite{taylor_analysis_1952}, this not constant wave amplitude
 pattern in the snake gives a higher swimming efficiency and it reaches higher velocities. Figure~\ref{fig:Bild3.5} shows superposed frames for the snake \textit{Natrix}, it is very
 clear to observe this amplitude variation along the tail.\par
 
@@ -173,10 +173,9 @@ clear to observe this amplitude variation along the tail.\par
   \end{footnotesize}
 \end{figure} 
 
-Based on those studies, it is desired to reproduce this behavior in our swimmer model created in LAMMPS, and for it is required to create a new bond style to reproduce this swimming
+Based on those studies, it is desired to reproduce this behavior in our swimmer model created in LAMMPS, and for it, it is required to create a new bond style to reproduce this swimming
 pattern. There are different methods to represent mathematically those changes in the waveform. One method is to represent this wave amplitude change with increasing linearly the 
-amplitude value in direction from head to tail, as it is described in \cite{jayne_swimming_1985}. In Equation~\ref{amp} this linear relation for the amplitude value is presented,
-where now the wave amplitude depends on which tail segment it is and on the linear equation parameters $a$ and $b$.
+amplitude value in direction from head to tail, as it is described in \cite{jayne_swimming_1985}. In Equation~\ref{amp} this linear relation for the amplitude value is presented.
 
 \begin{equation}\label{amp}
   A = a X + b
@@ -236,7 +235,7 @@ format.
 Figure~\ref{fig:Bild3.7} is a schematic diagram of a swimming \textit{C. intestinalis} larva with its sensory and motor organs highlighted. The neuromuscular anatomy and its 
 transverse section illustrates the anatomy of the tail. With the description of the muscle cells, it becomes easier to visualize the operation of the bonds between tail particles
 in the mathematical model. Also, the notochord is represented in our model by the strong internal bonds in the swimmer, as the notochord is stiff in compression and resists shortening,
-but it is flexible in bending to allow lateral ondulation. Another interesting point that can be seen from in this picture is the tail  thinning from head to tail tip.
+but it is flexible in bending to allow lateral ondulation. Another interesting point that can be seen in this picture is the tail thinning from head to tail tip.
 
 
 \begin{figure}[H]
@@ -251,7 +250,7 @@ but it is flexible in bending to allow lateral ondulation. Another interesting p
 
 
 Tytell and Hsu \cite{tytell_interactions_2010} introduced the relevance of interactions between internal force, body stiffness and fluid environment. The model presented in this
-study includes an actuated, viscoelastic body, based on that of a lamprey swimming. The motion of the body emerges as a balance between internal muscular force and eternal fluid
+study includes an actuated, viscoelastic body, based on a lamprey swimming. The motion of the body emerges as a balance between internal muscular force and eternal fluid
 forces. Depending on external parameters such as viscosity and internal parameters such as body stiffness, the swimmer can achieve different levels of performance, including
 rapid acceleration or high speed. In this same study, the axial impulse per unit height produced during steady swimming is studied. It is seen that the impulse value increases with the position
 along the body of the swimming lamprey. This dependency of body stuffiness in swimming performance was studied by Tytell and Hsu and it is shown in Figure~\ref{fig:Bild3.8}
@@ -281,13 +280,13 @@ along the body of the swimming lamprey. This dependency of body stuffiness in sw
 After assembling all information presented here about the swimmer motion and physiology, a new mathematical model was created to combine all requirements to get closer to a more
 realistic model than the regular prescribed motion model. In this model, instead of creating some mathematical relation to increase amplitude along the swimmer body based on the
 amplitude value, the body stiffness is decreased along the body from head to tail. This  approach goes in a realistic direction as many swimmers , as larvae of \textit{Herdmania pallida} and
-\textit{Aplidium constellatum}, has a cross section thinning along the body, and this behavior can be approached reducing the body stiffness along the body. This new model was
+\textit{Aplidium constellatum}, have a cross section thinning along the body, and this behavior can be approached reducing the body stiffness along the body. This new model was
 implemented in LAMMPS and the results are shown in Chapter 4. \par
 
 In LAMMPS, a new class was created, called \textit{bond$\_$harmonic$\_$swimmer$\_$extended$\_$k}, to describe this bond style. In this bond style, the wave parameters remained the same, i.e. all previous configurations can be also set with this new class. 
 Previously, the bond stiffness inside the class was defined as:
 
-\begin{equation}
+\begin{equation}\label{k}
  K = \frac{U_{min}}{( r_{0} - r_{c})^2} ,
 \end{equation}
 
@@ -321,8 +320,8 @@ the modification done in \textit{bond$\_$harmonic$\_$swimmer$\_$extended}.
 \section{SPH Kernel Class}
 \label{sec:section 5}
 
-The main point of smoothed particle hydrodynamics lie on the kernel interpolants. In particular, a kernel summation interpolant is used for estimating the density
-which then govern the rest of the basic SPH equations through the variational formalism. The performance of a SPH model depends on the choice of the weigthing functions. \par
+The main point of smoothed particle hydrodynamics lies on the kernel interpolants. In particular, a kernel summation interpolant is used for estimating the density
+which then govern the rest of the basic SPH equations through the variational formalism. The performance of a SPH model depends on the choice of the weighting functions. \par
 For any field $F(r)$, a smoothed interpolated version can be defined, $F_{s}(r)$, through a convolution with a kernel $W(r,h)$:
 
 \begin{equation}
@@ -357,17 +356,17 @@ length approaches to zero
 \end{equation}
 
 There are many different methods to describe the weighting function $W$. Monaghan and Gingold \cite{gingold_smoothed_1977} introduced first a Gaussian kernel. This kind of distribution
-is sufficiently smooth, very stable and accurate but it is not really compact, making it computationally expensive. Equation~\ref{gauss} is a Gaussian distribution for the kernel
-and Figure~\ref{fig:Bild3.10} a Gaussian kernel is plotted and an illustrative picture shows how in the Gaussian distribution set in a particle domain.
+is sufficiently smooth, very stable and accurate but it is not really compact, making it computationally expensive. Equation~\ref{gauss} is a Gaussian distribution for the kernel.
+In Figure~\ref{fig:Bild3.10} a Gaussian kernel is plotted and an illustrative picture shows how is the Gaussian distribution set in a particles domain.
 
 \begin{equation}\label{gauss}
  W(r-r',h) = \frac{\sigma}{h^d} exp[-\frac{(r-r')^2}{h^2}] ,
 \end{equation}
 
-where $d$ refers to the number of spatial dimensions is a normalization factor given in 3 dimensions given by:
+where $d$ refers to the number of spatial dimensions and $\sigma$ is a normalization factor given by:
 
 \begin{equation}
- \sigma = [1/\sqrt{\pi},1/\pi,1/(\pi\sqrt{\pi})]
+ \sigma = [1/\sqrt{\pi},1/\pi,1/(\pi\sqrt{\pi})] \quad \quad \text{in 3D}
 \end{equation}
 
 \begin{figure}[H]
@@ -432,7 +431,7 @@ function.
 
 
 
-LAMMPS proposes only one type of kernel, a Lucy kernel \cite{lucy_numerical_1977}. This kernel function is used to calculate the local density and used for all different classes
+LAMMPS proposes only one type of kernel, a Lucy kernel \cite{lucy_numerical_1977}. This kernel function is used to calculate the local density and used in many different classes
 that calculate the equation of state ( for example, Tait's equation of state). The form of Lucy kernel function is shown below:
 
 
@@ -447,7 +446,7 @@ expand the number of available kernel functions to be defined by the user. Initi
 density in \textit{pair$\_$style sph/rhosum}, in \textit{pair$\_$style sph/taitwater}, in Lennard-Jones equation of state \textit{pair$\_$style sph/lj} and all others SPH
 \textit{pair$\_$style}. \par
 
-A base class to include new kernel functions was created as \textit{sph$\_$kernel}. Here the input parameters are $r$, which the distance between particles $a$ and $b$, and the $h$
+A base class to include new kernel functions was created as \textit{sph$\_$kernel}. Here the input parameters are $r$ (the distance between particles $a$ and $b$) and the $h$,
 the range of the kernel function. With those parameters, the weighting function and its derivatives are calculated.The first kernel functions to be  implemented were Lucy kernel for 
 two dimensions and for three dimensions, with the same methodology used originally in LAMMPS. The next kernel function added was a quadratic function described bellow:
 
@@ -498,11 +497,11 @@ that were add in LAMMPS is available in Appendix~\ref{app:kernel function}.
 
 The standard SPH method implemented in LAMMPS suffers from particle clumping and void regions for high Reynolds number flows and when negative pressures occur in the flow.
 As a solution, Adami \cite{adami_transport-velocity_2013} proposed an algorithm that combines the homogenization of the particle configuration by a background pressure while at the same
-time reduces artificial numerical dissipation. In Chapter 1.2 the transport-velocity methodology introduced by Adami is described and compared with the standard SPH method.\par
+time, reduces artificial numerical dissipation. In Chapter 1.2 the transport-velocity methodology introduced by Adami is described and compared with the standard SPH method.\par
 
 LAMMPS provides data structures for forces, positions and velocities. SPH requires four new per-particle parameters: local density $\rho$ , internal energy $E$ and their respective
-time derivatives $\dot{\rho}$ and $\dot{E}$. These quantities can be accessed in the data structure \textit{atom$\_$style meso} and it must me used for simulation with the SPH package.
-This atom style also includes a per-particle heat capacity, such that a oer-particle temperature can be calculated. Additionally, this atom style defines an extrapolated velocity,
+time derivatives $\dot{\rho}$ and $\dot{E}$. These quantities can be accessed in the data structure \textit{atom$\_$style meso} and it must be used for simulation with the SPH package.
+This atom style also includes a per-particle heat capacity, such that a per-particle temperature can be calculated. Additionally, this atom style defines an extrapolated velocity,
 which is an estimation of a velocity consistent with the positions at the time when forces are evaluated. LAMMPS uses a Velocity-Verlet scheme to perform time integration:
 
 \begin{equation}
@@ -541,7 +540,7 @@ Based on this standard formulation, an adaptation of the method used in LAMMPS i
 
 The first step is to adapt the class \textit{atom} and create the class \textit{atom$\_$vec$\_$meso$\_$trans}, which is a modification of the \textit{atom$\_$vec$\_$meso}. The new 
 parameter to be included into the new classes is the background pressure force $f_{b}$. \par
-Now, a new pair style is established for Adami's formulation, \textit{pair$\_$sph$\_$adami}. Here, the background pressure field $p_{b}$, which is essential for the calculation
+Now, a new pair style is established for Adami's formulation, \textit{pair$\_$sph$\_$adami}. Here, the background pressure field $p_{b}$ is defined, which is essential for the calculation
 of the transport velocity $\tilde{v}$. The equation below describes the discretized form of the transport velocity of a particle $i$:
 
 \begin{equation}
@@ -554,8 +553,8 @@ is available in Appendix~\ref{app:adami}
 \subsection{Adami's formulation validation}
 \label{sec:section 1}
 
-To validate the implementation of the transport-velocity methodology for SPH, it was reproduced the simulation over a cylinder in a periodic performed by Adami
-\cite{adami_transport-velocity_2013} to validate his method. The flow is wall-bounded at the upper and lower boundaries with a channel height of $H=4R$, where $R=0.02m$ is the 
+To validate the implementation of the transport-velocity methodology for SPH, it was reproduced the simulation over a cylinder in a periodic channel, performed by Adami
+\cite{adami_transport-velocity_2013}, to validate his method. The flow is wall-bounded at the upper and lower boundaries with a channel height of $H=4R$, where $R=0.02m$ is the 
 radius of the cylinder. The cylinder is placed on the centerline of the channel and the total length of the periodic channel segment is $L=0.12m$. The liquid has a density and
 viscosity of $\rho = 1000 kg/m^3$ and $\eta = 0.1 kg/ms$, respectively. A constant driving force $g$ in x-direction is used to achieve a specified constant mass flux.\par
 The results achieved with the simulations in LAMMPS with the transport-velocity formulation are compared with the results from Adami. In Figure~\ref{fig:Bild3.13}, the velocity profiles
