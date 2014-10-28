@@ -325,12 +325,173 @@ the swimmer with constant amplitude curves sharply with time. The model presente
 \label{sec:section 5}
 
 
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/k_vec}
+  \caption[]{}
+   \label{fig:Bild4.17}
+  \end{footnotesize}
+\end{figure}
+
+
+
 \begin{figure}[H]
 \centering
   \begin{footnotesize}
   \includesvg{images/c_k_vx}
   \caption[]{}
-   \label{fig:Bild4.17}
+   \label{fig:Bild4.18}
   \end{footnotesize}
 \end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/c_k_fx}
+  \caption[]{}
+   \label{fig:Bild4.19}
+  \end{footnotesize}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/c_k_xcm}
+  \caption[]{}
+   \label{fig:Bild4.20}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/vx_compare}
+  \caption[]{}
+   \label{fig:Bild4.x}
+  \end{footnotesize}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/fx_compare}
+  \caption[]{}
+   \label{fig:Bild4.xx}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/xcm_compare}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\section{Reynolds}
+\label{sec:section 6}
+
+Constant A , Constant K
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_vx_const_a}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_xcm_const_a}
+  \caption[]{}
+   \label{fig:Bild4.xxxxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_xcm2_const_a}
+  \caption[]{}
+   \label{fig:Bild4.xxxxxxx}
+  \end{footnotesize}
+\end{figure}
+
+Extended A , Constant K
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_vx_ext_a}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_xcm_ext_a}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_xcm2_ext_a}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+Constant A Extended K
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_vx_ext_k}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_xcm_ext_k}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\begin{figure}[H]
+\centering
+  \begin{footnotesize}
+  \includesvg{images/re_xcm2_ext_k}
+  \caption[]{}
+   \label{fig:Bild4.xxx}
+  \end{footnotesize}
+\end{figure}
+
+
+\section{Swimmer efficiency}
+\label{sec:section 7}
 
